@@ -24,5 +24,5 @@ book.pdf e cp algorithms sono abbastanza (anzi troppo) per la maggior parte dell
 - Diversi cper hanno le loro soluzioni di training su una repo pubblica. Un esempio è quella di [ferrari](https://github.com/lorenzo-ferrari/olinfo) con soluzioni a quasi tutti i problemi su training. Da non abusare pls.
 
 ## Altro
-- [] sito per controllare quanti problemi oii hai fatto non ricordo come si chiamaaaaa
+- [Olitracker](https://olitracker.x0k.it) sito per controllare quanti problemi di training hai fatto
 - [oichecklist](https://oichecklist.pythonanywhere.com/) vagamente utile per segnare problemi fatti delle internazionali
