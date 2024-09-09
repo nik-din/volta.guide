@@ -1,4 +1,6 @@
 # Algobadge
+**work in progress!**
+
 Qui puoi trovare hint per i problemi di Algobadge!
 ## Intro
 ### Massimo 
