@@ -11,7 +11,7 @@
     theme: defaultTheme({
       logo: '/images/volta.png',
 
-      navbar: ['/', '/get-started', '/algobadge'],
+      navbar: ['/', '/introduzione', '/risorse', '/algobadge', '/problemi'],
     }),
 
     bundler: viteBundler(),
