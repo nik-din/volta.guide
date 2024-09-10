@@ -12,6 +12,7 @@
 <li><a href="https://training.olinfo.it" target="_blank" rel="noopener noreferrer">training.olinfo</a></li>
 <li><a href="https://territoriali.olinfo.it/" target="_blank" rel="noopener noreferrer">problemi delle territoriali</a></li>
 <li><a href="https://algobadge.olinfo.it/" target="_blank" rel="noopener noreferrer">Algobadge</a> fatelo!</li>
+<li><a href="https://cses.fi/problemset/" target="_blank" rel="noopener noreferrer">cses</a> sito con una raccolta curata di problemi per lo più noti, utile per provare ad implementare teoria imparata</li>
 <li><a href="https://codeforces.com" target="_blank" rel="noopener noreferrer">Codeforces</a> forse il sito più popolare di competitive programming, spesso ci sono contest</li>
 <li><a href="https://oj.uz" target="_blank" rel="noopener noreferrer">oj.uz</a> sito pieno di problemi, utile per gare internazionali</li>
 <li><a href="https://atcoder.jp/" target="_blank" rel="noopener noreferrer">Atcoder</a> codeforces giapponese</li>
@@ -27,7 +28,7 @@ book.pdf e cp algorithms sono abbastanza (anzi troppo) per la maggior parte dell
 </ul>
 <h2 id="altro" tabindex="-1"><a class="header-anchor" href="#altro"><span>Altro</span></a></h2>
 <ul>
-<li>[] sito per controllare quanti problemi oii hai fatto non ricordo come si chiamaaaaa</li>
+<li><a href="https://olitracker.x0k.it" target="_blank" rel="noopener noreferrer">Olitracker</a> sito per controllare quanti problemi di training hai fatto</li>
 <li><a href="https://oichecklist.pythonanywhere.com/" target="_blank" rel="noopener noreferrer">oichecklist</a> vagamente utile per segnare problemi fatti delle internazionali</li>
 </ul>
 </div></template>
