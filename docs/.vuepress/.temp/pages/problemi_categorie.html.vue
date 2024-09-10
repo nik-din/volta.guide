@@ -1,4 +1,4 @@
-<template><div><h1 id="problemi-divisi-per-categorie" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-categorie"><span>Problemi divisi per categorie</span></a></h1>
+<template><div><h1 id="problemi-divisi-per-categoria" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-categoria"><span>Problemi divisi per categoria</span></a></h1>
 <p>Qui sotto elenchiamo i problemi divisi per argomento.</p>
 <h2 id="greedy" tabindex="-1"><a class="header-anchor" href="#greedy"><span>Greedy</span></a></h2>
 <p><em>cosa sono i problemi greedy, risorse per imparare a farli</em>
@@ -20,16 +20,6 @@ la difficoltà è soprattutto in base alla teoria</p>
 </ul>
 <h2 id="interattivi" tabindex="-1"><a class="header-anchor" href="#interattivi"><span>Interattivi</span></a></h2>
 <h2 id="flow" tabindex="-1"><a class="header-anchor" href="#flow"><span>Flow</span></a></h2>
-<h1 id="problemi-divisi-per-competizione" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-competizione"><span>Problemi divisi per competizione</span></a></h1>
-<h2 id="terry" tabindex="-1"><a class="header-anchor" href="#terry"><span>Terry</span></a></h2>
-<h2 id="ois" tabindex="-1"><a class="header-anchor" href="#ois"><span>OIS</span></a></h2>
-<h3 id="_2024" tabindex="-1"><a class="header-anchor" href="#_2024"><span>2024</span></a></h3>
-<ul>
-<li><RouteLink to="/problemi/carry_training.html">Round 3, Carry bit</RouteLink> richiede teoria</li>
-</ul>
-<h2 id="nazionali" tabindex="-1"><a class="header-anchor" href="#nazionali"><span>Nazionali</span></a></h2>
-<h2 id="internazionali" tabindex="-1"><a class="header-anchor" href="#internazionali"><span>Internazionali</span></a></h2>
-<h2 id="codeforces-o-altro" tabindex="-1"><a class="header-anchor" href="#codeforces-o-altro"><span>Codeforces o altro</span></a></h2>
 </div></template>
 
 
