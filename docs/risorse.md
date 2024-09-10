@@ -11,6 +11,7 @@
 - [training.olinfo](https://training.olinfo.it)
 - [problemi delle territoriali](https://territoriali.olinfo.it/)
 - [Algobadge](https://algobadge.olinfo.it/) fatelo!
+- [cses](https://cses.fi/problemset/) sito con una raccolta curata di problemi per lo più noti, utile per provare ad implementare teoria imparata 
 - [Codeforces](https://codeforces.com) forse il sito più popolare di competitive programming, spesso ci sono contest
 - [oj.uz](https://oj.uz) sito pieno di problemi, utile per gare internazionali
 - [Atcoder](https://atcoder.jp/) codeforces giapponese
