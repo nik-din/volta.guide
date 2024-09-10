@@ -1,5 +1,5 @@
 import comp from "/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/introduzione.html.vue"
-const data = JSON.parse("{\"path\":\"/introduzione.html\",\"title\":\"Introduzione\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Introduzione\"},\"headers\":[],\"git\":{\"updatedTime\":1725912344000,\"contributors\":[{\"name\":\"nik-din\",\"email\":\"nik.dindo@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"introduzione.md\"}")
+const data = JSON.parse("{\"path\":\"/introduzione.html\",\"title\":\"Introduzione\",\"lang\":\"en-US\",\"frontmatter\":{\"title\":\"Introduzione\"},\"headers\":[],\"git\":{\"updatedTime\":1725914851000,\"contributors\":[{\"name\":\"nik-din\",\"email\":\"nik.dindo@gmail.com\",\"commits\":2}]},\"filePathRelative\":\"introduzione.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

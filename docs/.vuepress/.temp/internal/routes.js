@@ -7,6 +7,7 @@ export const routes = Object.fromEntries([
   ["/introduzione.html", { loader: () => import(/* webpackChunkName: "introduzione.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/introduzione.html.js"), meta: {"title":"Introduzione"} }],
   ["/problemi.html", { loader: () => import(/* webpackChunkName: "problemi.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi.html.js"), meta: {"title":"Problemi"} }],
   ["/risorse.html", { loader: () => import(/* webpackChunkName: "risorse.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/risorse.html.js"), meta: {"title":"Risorse"} }],
+  ["/problemi/carry_training.html", { loader: () => import(/* webpackChunkName: "problemi_carry_training.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/carry_training.html.js"), meta: {"title":"Carry Bit"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 
