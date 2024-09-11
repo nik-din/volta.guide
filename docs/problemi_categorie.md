@@ -18,6 +18,9 @@ Internazionale/ois brutti
 
 
 ## Dp
+### Facile
+### Medio
+- [Weoi trees](./problemi/trees_weoi.md) dp su alberi non troppo difficile
 
 ## Grafi
 
