@@ -13,5 +13,7 @@ title: Problemi per fonte
 ## Nazionali
 
 ## Internazionali
+### WEOI 
+- [Trees, 2024](./problemi/trees_weoi.md)
 
 ## Codeforces o altro
