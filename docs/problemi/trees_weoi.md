@@ -1,4 +1,4 @@
-# Carry Bit
+# Trees
 Link: [https://training.olinfo.it/#/task/weoi_trees/statement](https://training.olinfo.it/#/task/weoi_trees/statement)     
 Fonte: WEOI 2024   
 <details>
@@ -18,7 +18,7 @@ Problema carino, forse il più facile della competizione.
 
   Nella transizione cosa ti interessa sapere sui sottoalberi dei figli?
 </details>
-     
+<br></br> 
 
 <details>
   <summary>Sketch di soluzione:</summary>
