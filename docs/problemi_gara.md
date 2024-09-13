@@ -8,7 +8,9 @@ title: Problemi per fonte
 
 ## OII
 ### 2022
-- [Trendytrash](./problemi/trendytrash.md) greedy non banale
+- [Trendytrash](./problemi/trendytrash.md) Non banale
+- [Riciclo](./problemi/trendytrash.md) Più difficile ma non troppo.
+- [Smaltimento](./problemi/smaltimento.md) Interessante
 
 ## OIS
 ### 2024
