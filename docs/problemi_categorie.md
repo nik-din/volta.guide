@@ -12,6 +12,8 @@ Terry o meno
 
 ### Medio
 Nazionale 
+- [Trendytrash](./problemi/trendytrash.md) greedy non banale
+- [Riciclo](./problemi/riciclo.md) più difficile ma non troppo
 
 ### Avanzato
 Internazionale/ois brutti
@@ -23,6 +25,9 @@ Internazionale/ois brutti
 - [Weoi trees](./problemi/trees_weoi.md) dp su alberi non troppo difficile
 
 ## Grafi
+### Facile
+### Medio
+- [Smaltimento](./problemi/smaltimento.md) carino
 
 ## Data structures
 
@@ -36,6 +41,6 @@ Internazionale/ois brutti
 
 ## Interattivi
 
-## Flow
+## Flow/matching
 
 
