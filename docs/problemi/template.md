@@ -27,13 +27,16 @@ Descrizione rapida del problema
 </details>
 <br></br>
 
-soluzione:
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
+<details>
+  <summary>Soluzione:</summary>
 
-int main(){
+  ```cpp
+  #include <bits/stdc++.h>
+  using namespace std;
+
+  int main(){
     
-}
+  }
 
-```
+  ``` 
+</details>
