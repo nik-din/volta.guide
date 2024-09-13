@@ -6,6 +6,10 @@ title: Problemi per fonte
 
 ## Terry
 
+## OII
+### 2022
+- [Trendytrash](./problemi/trendytrash.md) greedy non banale
+
 ## OIS
 ### 2024
 - [Round 3, Carry bit](./problemi/carry_training.md) richiede teoria

@@ -12,6 +12,7 @@ Terry o meno
 
 ### Medio
 Nazionale 
+- [Trendytrash](./problemi/trendytrash.md) greedy non banale
 
 ### Avanzato
 Internazionale/ois brutti
@@ -36,6 +37,6 @@ Internazionale/ois brutti
 
 ## Interattivi
 
-## Flow
+## Flow/matching
 
 
