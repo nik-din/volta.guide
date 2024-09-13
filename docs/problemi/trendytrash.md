@@ -36,76 +36,79 @@ Problema carino, difficilino per essere il primo problema (effettivamente 100 pu
 </details>
 <br></br>
 
-soluzione:
-```cpp
+<details>
+  <summary>Soluzione:</summary>
 
-#include <bits/stdc++.h>
+  ```cpp
+  #include <bits/stdc++.h>
 
-using namespace std;
+  using namespace std;
 
-int pulisci(int N, int M, vector<string> S) {
-  vector<int> righe(N);
-  vector<int> col(M);
-  for(int i = 0; i<N; i++){
-    for(int j = 0; j<M; j++){
-      int a;
-      if(S[i][j]=='0') a = -1;
-      else a = 1;
-      righe[i]+=a;
-      col[j]+=a;
+  int pulisci(int N, int M, vector<string> S) {
+    vector<int> righe(N);
+    vector<int> col(M);
+    for(int i = 0; i<N; i++){
+      for(int j = 0; j<M; j++){
+        int a;
+        if(S[i][j]=='0') a = -1;
+        else a = 1;
+        righe[i]+=a;
+        col[j]+=a;
+      }
     }
-  }
-  sort(righe.begin(), righe.end(), [](int a, int b){
+    sort(righe.begin(), righe.end(), [](int a, int b){
+      return abs(a)>abs(b);
+    });
+    sort(col.begin(), col.end(), [](int a, int b){
     return abs(a)>abs(b);
-  });
-  sort(col.begin(), col.end(), [](int a, int b){
-   return abs(a)>abs(b);
-  });
-  int dif_righe = 0;
-  int dif_col = 0;
-  int curr_righe = M;
-  int curr_col = N;
-  int sol = N*M;
+    });
+    int dif_righe = 0;
+    int dif_col = 0;
+    int curr_righe = M;
+    int curr_col = N;
+    int sol = N*M;
 
-  int i = 0;
-  int j = 0;  
-  while(sol!=0){
-    if(col[i]!=INT_MAX && abs(col[i]+dif_col)==curr_col){
-      sol-=curr_col;
-      if(col[i]+dif_col<0){
-        dif_righe++;
+    int i = 0;
+    int j = 0;  
+    while(sol!=0){
+      if(col[i]!=INT_MAX && abs(col[i]+dif_col)==curr_col){
+        sol-=curr_col;
+        if(col[i]+dif_col<0){
+          dif_righe++;
+        }
+        else dif_righe--;
+        curr_righe--;
+        col[i] = INT_MAX;
+        sort(righe.begin(), righe.end(), [&](int a, int b){
+          if(a==INT_MAX) return false;
+          if(b==INT_MAX) return true;
+          return abs(a+dif_righe)>abs(b+dif_righe);
+        });
+        i++;
+        j=0;
       }
-      else dif_righe--;
-      curr_righe--;
-      col[i] = INT_MAX;
-      sort(righe.begin(), righe.end(), [&](int a, int b){
-        if(a==INT_MAX) return false;
-        if(b==INT_MAX) return true;
-        return abs(a+dif_righe)>abs(b+dif_righe);
-      });
-      i++;
-      j=0;
-    }
-    else if(righe[j]!=INT_MAX && abs(righe[j]+dif_righe)==curr_righe){
-      sol-=curr_righe;
-      if(righe[j]+dif_righe<0){
-        dif_col++;
+      else if(righe[j]!=INT_MAX && abs(righe[j]+dif_righe)==curr_righe){
+        sol-=curr_righe;
+        if(righe[j]+dif_righe<0){
+          dif_col++;
+        }
+        else dif_col--;
+        curr_col--;
+        righe[j]=INT_MAX;
+        sort(col.begin(), col.end(), [&](int a, int b){
+          if(a==INT_MAX) return false;
+          if(b==INT_MAX) return true;
+          return abs(a+dif_col)>abs(b+dif_col);
+        });
+        j++; i=0;
       }
-      else dif_col--;
-      curr_col--;
-      righe[j]=INT_MAX;
-      sort(col.begin(), col.end(), [&](int a, int b){
-        if(a==INT_MAX) return false;
-        if(b==INT_MAX) return true;
-        return abs(a+dif_col)>abs(b+dif_col);
-      });
-      j++; i=0;
+      else break;    
     }
-    else break;    
+
+    return sol;
+    
   }
 
-  return sol;
-  
-}
+  ```
 
-```
+</details>
