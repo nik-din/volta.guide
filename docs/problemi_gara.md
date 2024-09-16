@@ -7,7 +7,7 @@ title: Problemi per fonte
 ## Terry
 
 ## OII
-### 2022
+### 2021
 - [Trendytrash](./problemi/trendytrash.md) Non banale
 - [Riciclo](./problemi/trendytrash.md) Più difficile ma non troppo.
 - [Smaltimento](./problemi/smaltimento.md) Interessante

@@ -1,15 +1,15 @@
 # Smaltimento
 Link: [https://training.olinfo.it/#/task/oii_smaltimento/statement](https://training.olinfo.it/#/task/oii_smaltimento/statement)
-Fonte: OII 2022
+Fonte: OII 2021
 <details>
   <summary>Categoria</summary>
 
   Grafi
 </details>
        
-Problema carino, non facile.
-*Nota*
-*L'ho fatto un po' di tempo fa, non ricordo tanto della sol.*
+Problema carino, non facile.    
+*Nota*    
+*L'ho fatto un po' di tempo fa, non ricordo tanto della sol.*    
 <details>
   <summary>Hint 1:</summary>
 

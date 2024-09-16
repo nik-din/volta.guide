@@ -1,15 +1,15 @@
 # Trendytrash
 Link: [https://training.olinfo.it/#/task/oii_trendytrash/statement](https://training.olinfo.it/#/task/oii_trendytrash/statement)
-Fonte: OII 2022  
+Fonte: OII 2021    
 <details>
   <summary>Categoria</summary>
 
   Greedy, sort
 </details>
 
-Problema carino, difficilino per essere il primo problema (effettivamente 100 punti bastavano per arrivare 60esimi, 118 cutoff argento).
-*Nota:*
-*Probabilmente c'è un modo più decente di implementare la mia sol*
+Problema carino, difficilino per essere il primo problema (effettivamente 100 punti bastavano per arrivare 60esimi, 118 cutoff argento).    
+*Nota:*    
+*Probabilmente c'è un modo più decente di implementare la mia sol*    
 <details>
   <summary>Hint 1:</summary>
 
@@ -18,7 +18,7 @@ Problema carino, difficilino per essere il primo problema (effettivamente 100 pu
 <details>
   <summary>Hint 2:</summary>
 
-  Cosa succede se scambio due colonne? E due righe?
+  Cosa succede se scambio due colonne? E due righe?    
   In generale posso permutare le righe/colonne?
 </details>
 <details>
@@ -31,7 +31,7 @@ Problema carino, difficilino per essere il primo problema (effettivamente 100 pu
 <details>
   <summary>Sketch di soluzione:</summary>
     
-  Calcolo le somme di righe e colonne (ho considerato gli 0 come -1). Poi andare avanti e indietro tra sortare colonne/righe e controllare se il più grande della colonna/riga funziona. 
+  Calcolo le somme di righe e colonne (ho considerato gli 0 come -1). Poi andare avanti e indietro tra sortare colonne/righe e controllare se il più grande della colonna/riga funziona.     
   Il tutto stando attenti ad aggiornare la lunghezza attuale di una colonna/riga e salvarsi una variabile per capire cosa è stato tolto da ogni riga/colonna. Guarda il codice per dettagli.
 </details>
 <br></br>
