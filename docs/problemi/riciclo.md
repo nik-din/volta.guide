@@ -1,21 +1,21 @@
 # Riciclo
 Link: [https://training.olinfo.it/#/task/oii_riciclo/statement](https://training.olinfo.it/#/task/oii_riciclo/statement) 
-Fonte: OII 2022
+Fonte: OII 2021    
 <details>
   <summary>Categoria</summary>
 
   greedy, math
 </details>
        
-*Nota:*
-*Il codice sotto è parzialmente lamerato. Questo perché per qualche motivo continuava a sbagliare il caso del second subtask e non riuscendo a trovare il bug ho semplicement combinato il mio codice con una soluzione per il subtask in questione. Non penso sia un errore concettuale, sarà un bug random. Se qualcuno riesce a scrivere un codice che funzioni, aspetto una pr :)*
+*Nota:*    
+*Il codice sotto è parzialmente lamerato. Questo perché per qualche motivo continuava a sbagliare il caso del second subtask e non riuscendo a trovare il bug ho semplicement combinato il mio codice con una soluzione per il subtask in questione. Non penso sia un errore concettuale, sarà un bug random. Se qualcuno riesce a scrivere un codice che funzioni, aspetto una pr :)*    
 
 <details>
   <summary>Hint 1:</summary>
 
-  Una strategia greedy funziona.
-  Conviene sempre prendere una palette più piccola. Ma come li distribuisco sui camion?
-  Spoiler: anche in questo caso greedy.
+  Una strategia greedy funziona.    
+  Conviene sempre prendere una palette più piccola. Ma come li distribuisco sui camion?    
+  Spoiler: anche in questo caso greedy.    
 </details>
 <details>
   <summary>Hint 2:</summary>
@@ -27,8 +27,8 @@ Fonte: OII 2022
 <details>
   <summary>Sketch di soluzione:</summary>
 
-  Dividi i T[i] in potenze di 2. A quel punto cicla su P[i] e semplicemente proviamo a mettere i P[i] nelle potenze di 2 dei T[i]. 
-  La scomposizione dei T[i] funziona perché, banalmente, tutti i P[i] sono potenze di due. (Convincetevi che funziona insomma)
+  Dividi i T[i] in potenze di 2. A quel punto cicla su P[i] e semplicemente proviamo a mettere i P[i] nelle potenze di 2 dei T[i].     
+  La scomposizione dei T[i] funziona perché, banalmente, tutti i P[i] sono potenze di due. (Convincetevi che funziona insomma)    
 </details>
 <br></br>
 
