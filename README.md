@@ -2,6 +2,11 @@
 
 Repo per il leggendario sito che ci farà fullare le ioi
 
+
+## avviso
+usate beta_nuovi_problemi se volete aggiungere nuovi problemi, non fate la pr subito, così facciamo un unico commit per un po' di problemi.
+
+
 ## appunti random
 
 Io farei una struttura del genere:
