@@ -9,7 +9,7 @@ title: Problemi per fonte
 ## OII
 ### 2021
 - [Trendytrash](./problemi/trendytrash.md) Non banale
-- [Riciclo](./problemi/trendytrash.md) Più difficile ma non troppo.
+- [Riciclo](./problemi/riciclo.md) Più difficile ma non troppo.
 - [Smaltimento](./problemi/smaltimento.md) Interessante
 
 ## OIS
