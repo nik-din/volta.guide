@@ -1,10 +1,10 @@
 <template><div><h1 id="problemi-divisi-per-competizione" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-competizione"><span>Problemi divisi per competizione</span></a></h1>
 <h2 id="terry" tabindex="-1"><a class="header-anchor" href="#terry"><span>Terry</span></a></h2>
 <h2 id="oii" tabindex="-1"><a class="header-anchor" href="#oii"><span>OII</span></a></h2>
-<h3 id="_2022" tabindex="-1"><a class="header-anchor" href="#_2022"><span>2022</span></a></h3>
+<h3 id="_2021" tabindex="-1"><a class="header-anchor" href="#_2021"><span>2021</span></a></h3>
 <ul>
 <li><RouteLink to="/problemi/trendytrash.html">Trendytrash</RouteLink> Non banale</li>
-<li><RouteLink to="/problemi/trendytrash.html">Riciclo</RouteLink> Più difficile ma non troppo.</li>
+<li><RouteLink to="/problemi/riciclo.html">Riciclo</RouteLink> Più difficile ma non troppo.</li>
 <li><RouteLink to="/problemi/smaltimento.html">Smaltimento</RouteLink> Interessante</li>
 </ul>
 <h2 id="ois" tabindex="-1"><a class="header-anchor" href="#ois"><span>OIS</span></a></h2>
