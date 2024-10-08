@@ -1,12 +1,12 @@
 <template><div><h1 id="smaltimento" tabindex="-1"><a class="header-anchor" href="#smaltimento"><span>Smaltimento</span></a></h1>
 <p>Link: <a href="https://training.olinfo.it/#/task/oii_smaltimento/statement" target="_blank" rel="noopener noreferrer">https://training.olinfo.it/#/task/oii_smaltimento/statement</a>
-Fonte: OII 2022</p>
+Fonte: OII 2021</p>
 <details>
   <summary>Categoria</summary>
 <p>Grafi</p>
 </details>
-<p>Problema carino, non facile.
-<em>Nota</em>
+<p>Problema carino, non facile.<br>
+<em>Nota</em><br>
 <em>L'ho fatto un po' di tempo fa, non ricordo tanto della sol.</em></p>
 <details>
   <summary>Hint 1:</summary>

@@ -1,16 +1,16 @@
 <template><div><h1 id="riciclo" tabindex="-1"><a class="header-anchor" href="#riciclo"><span>Riciclo</span></a></h1>
 <p>Link: <a href="https://training.olinfo.it/#/task/oii_riciclo/statement" target="_blank" rel="noopener noreferrer">https://training.olinfo.it/#/task/oii_riciclo/statement</a>
-Fonte: OII 2022</p>
+Fonte: OII 2021</p>
 <details>
   <summary>Categoria</summary>
 <p>greedy, math</p>
 </details>
-<p><em>Nota:</em>
+<p><em>Nota:</em><br>
 <em>Il codice sotto è parzialmente lamerato. Questo perché per qualche motivo continuava a sbagliare il caso del second subtask e non riuscendo a trovare il bug ho semplicement combinato il mio codice con una soluzione per il subtask in questione. Non penso sia un errore concettuale, sarà un bug random. Se qualcuno riesce a scrivere un codice che funzioni, aspetto una pr 😃</em></p>
 <details>
   <summary>Hint 1:</summary>
-<p>Una strategia greedy funziona.
-Conviene sempre prendere una palette più piccola. Ma come li distribuisco sui camion?
+<p>Una strategia greedy funziona.<br>
+Conviene sempre prendere una palette più piccola. Ma come li distribuisco sui camion?<br>
 Spoiler: anche in questo caso greedy.</p>
 </details>
 <details>
@@ -20,7 +20,7 @@ Spoiler: anche in questo caso greedy.</p>
 <br></br> 
 <details>
   <summary>Sketch di soluzione:</summary>
-<p>Dividi i T[i] in potenze di 2. A quel punto cicla su P[i] e semplicemente proviamo a mettere i P[i] nelle potenze di 2 dei T[i].
+<p>Dividi i T[i] in potenze di 2. A quel punto cicla su P[i] e semplicemente proviamo a mettere i P[i] nelle potenze di 2 dei T[i].<br>
 La scomposizione dei T[i] funziona perché, banalmente, tutti i P[i] sono potenze di due. (Convincetevi che funziona insomma)</p>
 </details>
 <br></br>

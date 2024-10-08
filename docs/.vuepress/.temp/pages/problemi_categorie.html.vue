@@ -1,4 +1,5 @@
-<template><div><h1 id="problemi-divisi-per-categoria" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-categoria"><span>Problemi divisi per categoria</span></a></h1>
+<template><div><p><strong>ancora in fase di sviluppo</strong></p>
+<h1 id="problemi-divisi-per-categoria" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-categoria"><span>Problemi divisi per categoria</span></a></h1>
 <p>Qui sotto elenchiamo i problemi divisi per argomento.</p>
 <h2 id="greedy" tabindex="-1"><a class="header-anchor" href="#greedy"><span>Greedy</span></a></h2>
 <p><em>cosa sono i problemi greedy, risorse per imparare a farli</em>
