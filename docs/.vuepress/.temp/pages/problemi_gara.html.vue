@@ -1,4 +1,5 @@
-<template><div><h1 id="problemi-divisi-per-competizione" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-competizione"><span>Problemi divisi per competizione</span></a></h1>
+<template><div><p><strong>ancora in fase di sviluppo</strong></p>
+<h1 id="problemi-divisi-per-competizione" tabindex="-1"><a class="header-anchor" href="#problemi-divisi-per-competizione"><span>Problemi divisi per competizione</span></a></h1>
 <h2 id="terry" tabindex="-1"><a class="header-anchor" href="#terry"><span>Terry</span></a></h2>
 <h2 id="oii" tabindex="-1"><a class="header-anchor" href="#oii"><span>OII</span></a></h2>
 <h3 id="_2021" tabindex="-1"><a class="header-anchor" href="#_2021"><span>2021</span></a></h3>

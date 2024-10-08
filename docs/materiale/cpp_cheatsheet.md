@@ -1,8 +1,9 @@
 # c++ di base
 Quello sotto è un elenco riassuntivo di quello che faremo al corso base.
 Se non avete mai imparato prima un linguaggio di programmazione (e non siete venuti a lezione),
-può avere senso guardarsi qualche tutorial su internet, ad esempio (questo)[https://cplusplus.com/doc/tutorial/] (alcune cose sono un po' in dettaglio) 
-o (questo)[https://www.w3schools.com/cpp/] (non li ho provati personalmente).
+può avere senso guardarsi qualche tutorial su internet, ad esempio [questo](https://cplusplus.com/doc/tutorial/) (alcune cose sono un po' in dettaglio) 
+o [questo](https://www.w3schools.com/cpp/).    
+(non li ho provati personalmente).
 
 ## Struttura di base
 Ogni file c++ che scriveremo avrà questa struttura:
@@ -67,9 +68,9 @@ else{ //se tutte le condizioni prima sono false
 ```
 
 Nota:    
-= assegna un valore ad una variabile    
-== controlla se due valori sono uguali    
-!= controlla se sono diversi   
+```=``` assegna un valore ad una variabile    
+```==``` controlla se due valori sono uguali    
+```!=``` controlla se sono diversi   
 
 ## while e for
 La struttura di un while è:
