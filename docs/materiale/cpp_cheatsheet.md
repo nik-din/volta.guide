@@ -8,7 +8,7 @@ o [questo](https://www.w3schools.com/cpp/).
 ## Struttura di base
 Ogni file c++ che scriveremo avrà questa struttura:
 ```cpp
-#include <bits/sdtc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
 int main(){
