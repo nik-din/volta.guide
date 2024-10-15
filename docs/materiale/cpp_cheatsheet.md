@@ -82,10 +82,43 @@ while(condizione){
 
 la struttura del for è:
 ```cpp
-for(inizializzazione, int i = 0; condizione, i<N; azione eseguita dopo ogni ciclo, i++){
+for(inizializzazione; condizione; azione eseguita dopo ogni ciclo){
+    //codice
+}
+
+//esempio:
+for(int i = 0; i<N; i++){
     //codice
 }
 ```
 
-
-
+## vector
+i vettori sono una lista di elementi a dimensione variabile.    
+Inizializzazione:
+```cpp
+vector<tipo> nome(numero_elementi, valore_con_cui_riempire_il_vettore);
+//esempi:
+vector<int> vec;
+int N
+vector<int> v(N, 0);
+vector<long long int> v2 = {1, 2, 3};
+//posso anche fare vettori di vettori:
+vector<vector<int>> matrice;
+```
+Per accedere/modificare un elemento:
+```cpp
+vector<int> vettore;
+//gli indici vanno da 0 alla dimensione del vettore -1
+vettore[indice];
+//esempi:
+vector<int> v = {5, 6, 1, 2, 0};
+v[0]; //è 5;
+v[2]; //è 1;
+v[4] = 17; //adesso il vettore è {5, 6, 1, 2, 17};
+```
+Per aggiungere/togliere elementi alla fine:
+```cpp
+vector<int> vettore;
+vettore.push_back(10); //aggiunge 10 alla fine
+vettore.pop_back(); //toglie l'ultimo elemento
+```
