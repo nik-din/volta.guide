@@ -12,7 +12,7 @@ Ogni file c++ che scriveremo avrà questa struttura:
 using namespace std;
 
 int main(){
-    //dopo ogni riga di codice si mette un ;
+    //qui si mette il codice, concludendo ogni riga con un ;
 }
 ```
 
@@ -44,25 +44,29 @@ Gli operatori logici sono:
 ## I/O
 Input:
 ```cpp
-cin >> variabile;
+cin >> variabile; // la variabile deve già esistere
+cin >> variabile1 >> variabile2; // nell'input separate da uno spazio o su righe diverse
 ```
 Output:
 ```cpp
 cout << "stringa";
-cout << variabile;
+cout << variabile1 << ' ' << variabile2; //eventuali spazi vanno aggiunti a mano come char o stringhe
 ```
 
 ## if
 La struttra dell'if è:
 
 ```cpp
-if(condizione1){
-    //codice
+if (condizione1){
+    //codice eseguito se condizione1 è vera
 }
-else if(condizione2){ //solo se condizione1 è falsa
-    //codice
+else if (condizione2){
+    //codice se condizione1 è falsa ma condizione2 è vera
 }
-else{ //se tutte le condizioni prima sono false
+else if (condizione3) { //si possono mettere tanti else if quanto serve, anche nessuno
+    //codice se tutte le precedenti sono false ma condizione3 è vera
+}
+else{ //se tutte le condizioni precedenti sono false
     //codice
 }
 ```
@@ -87,7 +91,7 @@ for(inizializzazione; condizione; azione eseguita dopo ogni ciclo){
 }
 
 //esempio:
-for(int i = 0; i<N; i++){
+for(int i = 0; i<N; i++){ //inizia con i=0, continua finché i<N, ogni volta incrementa i di 1
     //codice
 }
 ```
@@ -98,27 +102,28 @@ Inizializzazione:
 ```cpp
 vector<tipo> nome(numero_elementi, valore_con_cui_riempire_il_vettore);
 //esempi:
-vector<int> vec;
+vector<int> vec; //sarà vuoto e di lunghezza 0
 int N
-vector<int> v(N, 0);
-vector<long long int> v2 = {1, 2, 3};
+vector<int> v(N, 0); //sarà lungo N, con tutti gli elementi che inizialmente sono 0
+vector<long long> v2 = {1, 2, 3}; //sarà quello descritto tra parentesi: il primo elemento è 1, ...
 //posso anche fare vettori di vettori:
 vector<vector<int>> matrice;
 ```
 Per accedere/modificare un elemento:
 ```cpp
 vector<int> vettore;
-//gli indici vanno da 0 alla dimensione del vettore -1
+//gli indici vanno da 0 alla dimensione del vettore - 1
 vettore[indice];
 //esempi:
 vector<int> v = {5, 6, 1, 2, 0};
 v[0]; //è 5;
 v[2]; //è 1;
 v[4] = 17; //adesso il vettore è {5, 6, 1, 2, 17};
+v[5]; //darà errore perchè l'ultimo elemento è il 4
 ```
 Per aggiungere/togliere elementi alla fine:
 ```cpp
 vector<int> vettore;
-vettore.push_back(10); //aggiunge 10 alla fine
-vettore.pop_back(); //toglie l'ultimo elemento
+vettore.push_back(10); //aggiunge 10 alla fine, allungando il vettore
+vettore.pop_back(); //toglie l'ultimo elemento, accorciando il vettore
 ```
