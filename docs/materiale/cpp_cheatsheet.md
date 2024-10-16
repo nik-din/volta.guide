@@ -103,7 +103,7 @@ Inizializzazione:
 vector<tipo> nome(numero_elementi, valore_con_cui_riempire_il_vettore);
 //esempi:
 vector<int> vec; //sarà vuoto e di lunghezza 0
-int N
+int N;
 vector<int> v(N, 0); //sarà lungo N, con tutti gli elementi che inizialmente sono 0
 vector<long long> v2 = {1, 2, 3}; //sarà quello descritto tra parentesi: il primo elemento è 1, ...
 //posso anche fare vettori di vettori:
@@ -126,4 +126,12 @@ Per aggiungere/togliere elementi alla fine:
 vector<int> vettore;
 vettore.push_back(10); //aggiunge 10 alla fine, allungando il vettore
 vettore.pop_back(); //toglie l'ultimo elemento, accorciando il vettore
+```
+Per cambiare la dimesione di un vettore:
+```cpp
+vector<int> vettore;
+int nuova_dimensione;
+vettore.resize(nuova_dimesione, valore_con_cui_riempire_il_vettore);
+//esempio:
+vettore.resize(5, -1); //vettore = {-1, -1, -1, -1, -1};
 ```
