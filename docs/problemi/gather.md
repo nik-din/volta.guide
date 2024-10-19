@@ -1,5 +1,5 @@
-# Titolo
-Link: [https://training.olinfo.it/task/ois_gatherings](https://training.olinfo.it/task/ois_gatherings)
+# Do not gather!
+Link: [https://training.olinfo.it/task/ois_gatherings](https://training.olinfo.it/task/ois_gatherings)    
 Fonte: OIS 2021 round 3   
 <details>
   <summary>Categoria</summary>
@@ -7,15 +7,13 @@ Fonte: OIS 2021 round 3
   sliding window
 </details>
        
-Problema implementativo
+Problema facile non ovvio
 <details>
   <summary>Hint 1:</summary>
 
   Sliding window
 </details>
-
 <br></br> 
-
 <details>
   <summary>Sketch di soluzione:</summary>
 
