@@ -6,6 +6,8 @@ title: Problemi per categoria
 
 # Problemi divisi per categoria
 Qui sotto elenchiamo i problemi divisi per argomento.
+## STL
+
 ## Greedy
 *cosa sono i problemi greedy, risorse per imparare a farli*
 la difficoltà è soprattutto in base alla teoria
@@ -16,6 +18,7 @@ Terry o meno
 Nazionale 
 - [Trendytrash](./problemi/trendytrash.md) greedy non banale
 - [Riciclo](./problemi/riciclo.md) più difficile ma non troppo
+- [Reading](./problemi/reading.md) 
 
 ### Avanzato
 Internazionale/ois brutti
@@ -32,8 +35,14 @@ Internazionale/ois brutti
 - [Smaltimento](./problemi/smaltimento.md) carino
 
 ## Data structures
+### Facile
+### Medio
+- [Renovations](./problemi/renovations.md)
 
-
+## Math
+### Facile
+### Medio
+- [Renovations](./problemi/renovations.md)
 ## Stringhe
 
 ### Facile
