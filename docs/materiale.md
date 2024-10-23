@@ -12,9 +12,10 @@ Qui caricheremo via via materiale.
 ### Lezione 3
 - [Farmula 1](https://training.olinfo.it/task/ois_farmula1)
 - [Formula 1](https://training.olinfo.it/task/ois_f1)
-- [Chess tournament 2](https://training.olinfo.it/task/ois_tournament2)
-- [Wordle](https://training.olinfo.it/task/ois_wordle)
 - [Goose game](https://training.olinfo.it/task/ois_goose)
+- [Cars](https://training.olinfo.it/task/ois_cars)
+- [Avg](https://training.olinfo.it/task/ois_avg)
+- [Interrogazioni](https://training.olinfo.it/task/ois_interrogazioni)
 
 ## c++ base
 [sintassi base c++](./materiale/cpp_cheatsheet.md)
