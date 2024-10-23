@@ -16,6 +16,14 @@ title: Problemi per fonte
 ## OIS
 ### 2024
 - [Round 3, Carry bit](./problemi/carry_training.md) richiede teoria
+### 2023
+### 2022
+- [Round 1, Renovations](./problemi/renovations.md) conteggi
+- [Final Round, Reading](./problemi/reading.md) greedy non banale
+### 2021
+- [Round 3, Gather](./problemi/gather.md) semplice
+### 2020
+- [Round 1, Money](./problemi/money.md) carino
 
 ## Nazionali
 
