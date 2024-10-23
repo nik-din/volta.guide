@@ -135,3 +135,50 @@ vettore.resize(nuova_dimesione, valore_con_cui_riempire_il_vettore);
 //esempio:
 vettore.resize(5, -1); //vettore = {-1, -1, -1, -1, -1};
 ```
+
+## funzioni
+Le funzioni sono un oggetto che può essere chiamato con un certo input come parametri per ritornare un certo output.    
+Ogni funzione ha quindi il tipo della variabile che ritorna e diversi parametri, ognuno con il loro tipo e un nome.   
+Esempi:
+```cpp
+tipo_da_ritornare nome_funzione(tipo1 parametro1, tipo2 parametro2, ..., tipo3 parametro3){
+    //codice
+    return var; //dove var è tipo_da_ritornare
+}
+
+int main(){
+    tipo_da_ritornare var;
+    var = nome_funzione(parametri....); //var avrà il valore ritornato
+}
+
+//se non ritorna valori uso il tipo void
+
+void funzione(parametri...){
+    //codice
+    return; //non ritorno niente
+}
+
+//esempi:
+
+int sum(int a, int b){
+    int c= a+b;
+    return c;
+    //o return a+b
+}
+
+int somma_di_tanti_numeri(vector<int>vec){
+    int sol = 0;
+    int n = vec.size();
+    for(int i = 0; i<n; i++){
+        sol += vec[i];
+    }
+    return sol;
+}
+
+//posso chiamare una funzione dentro un'altra in modo ricorsivo
+int fibonacci(int n){
+    if(n==1 || n==2) return 1;
+    return fibonacci(n-1)+fibonacci(n-2);
+}
+
+```
