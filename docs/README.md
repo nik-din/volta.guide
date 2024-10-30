@@ -9,5 +9,5 @@ Overview del sito:
 - [Introduzione](./introduzione.md) contiene un'introduzione al mondo della programmazione competitiva
 - [Materiale](./materiale.md) contiene del materiale che pubblichiamo via via
 - [Link](./link.md) contiene link e risorse utili
-- [Algobadge](./algobadge.md) contiene hint ai problemi di algobadge *ancora in fase di sviluppo*
-- [Problemi per fonte](./problemi_gara.md) contiene una raccolta di problemi divisi per fonte *ancora in fase di sviluppo*
+- [Algobadge](./algobadge.md) contiene hint ai problemi di algobadge 
+- [Problemi per fonte](./problemi_gara.md) contiene una raccolta di problemi divisi per fonte 
