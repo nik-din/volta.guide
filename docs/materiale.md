@@ -5,8 +5,6 @@ Qui caricheremo via via materiale.
 ### c++ base
 [sintassi base c++](./materiale/cpp_cheatsheet.md)
 ### Problemi
-#### Lezione 4
-
 #### Lezione 3
 - [Farmula 1](https://training.olinfo.it/task/ois_farmula1)
 - [Formula 1](https://training.olinfo.it/task/ois_f1)
