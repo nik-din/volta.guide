@@ -10,5 +10,4 @@ Overview del sito:
 - [Materiale](./materiale.md) contiene del materiale che pubblichiamo via via
 - [Link](./link.md) contiene link e risorse utili
 - [Algobadge](./algobadge.md) contiene hint ai problemi di algobadge *ancora in fase di sviluppo*
-- [Problemi per categoria](./problemi_categoria.md) contiene una raccolta di problemi divisi in base all'argomento *ancora in fase di sviluppo*
 - [Problemi per fonte](./problemi_gara.md) contiene una raccolta di problemi divisi per fonte *ancora in fase di sviluppo*
