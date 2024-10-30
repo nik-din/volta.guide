@@ -39,5 +39,5 @@ I problemi in questa categoria richiedono di conoscere l'stl.
 <details>
   <summary>Hint 2:</summary>
 
-  Usa un set con lower_bound.
+  Usa un set con lower_bound (attento a come usare lower_bound).
 </details>
