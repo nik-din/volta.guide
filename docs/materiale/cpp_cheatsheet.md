@@ -246,12 +246,14 @@ set<tipo> s;
 s.insert(valore); //inserisce un elemento nel set complessità: O(logN)
 s.erase(valore); //elimina un elemnto complessità: O(logN)
 *s.begin(); //primo elemento complessità: O(1)
-*s.end(); //ultimo elemento complessità: O(1)
+s.end(); //punta a dopo l'ultimo elemento, leggere sotto per dettagli complessità: O(1)
 *s.lower_bound(valore); //ottiene il primo elemento >= del valore complessità: O(logN)
 *s.upper_bound(valore); //ottiene il primo elemento > del valore complessità: O(logN)
 s.count(valore); //conta il numero di elementi uguali al valore 
 //count nel set può ritornare solo 0 e 1 complessità: O(logN)
 ```
+Se voglio accedere ad elementi vicini ad ```s.begin()```, ```s.end()```, ```s.lower_bound()``` o ```s.upper_bound```, basta salvarseli in una variabile ```auto``` (ad esempio ```auto it = s.begin()```) e poi ci si può spostare con ```++``` e ```--``` (tipo ```it++``` o ```it--```). A quel punto si può leggere l'elemento in quella posizione con ```*``` (ad esempio ```*it```).    
+Se siete curiosi questo succede perché queste funzioni ritornano un iteratore, potete trovare informazioni su internet, diciamo che però adesso non ci servono.
 
 #### map
 Struttura dati in cui ad ogni elemento è associata una chiave, con cui posso accederci (un po' come l'indice nel vettore ma la chiave può essere qualuqnue cosa).    
