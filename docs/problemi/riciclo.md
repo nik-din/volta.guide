@@ -7,8 +7,6 @@ Fonte: OII 2021
   greedy, math
 </details>
        
-*Nota:*    
-*Il codice sotto è parzialmente lamerato. Questo perché per qualche motivo continuava a sbagliare il caso del second subtask e non riuscendo a trovare il bug ho semplicement combinato il mio codice con una soluzione per il subtask in questione. Non penso sia un errore concettuale, sarà un bug random. Se qualcuno riesce a scrivere un codice che funzioni, aspetto una pr :)*    
 
 <details>
   <summary>Hint 1:</summary>
@@ -37,76 +35,35 @@ Fonte: OII 2021
 
   ```cpp
   #include <bits/stdc++.h>
-  #define ll long long
   using namespace std;
 
   long long riciclo(int N, int M, vector<int> T, vector<int> P) {
-    ll n = N; ll m = M; 
-    vector<ll> t(n);
-    for(ll i = 0; i<n; i++) t[i]=T[i];
-    vector<ll> p(m);
-    for(ll i = 0; i<m; i++) p[i]=P[i];
-
-    if(n == 1){
-      ll s2 = 0;
-      for(ll i = 0; i<m; i++){
-        if(p[i]==0) continue;
-        ll var = min(t[0]/(1<<i), p[i]);
-        s2 += var;
-        p[i]-=var;
-        if(p[i]>0) return s2;
-        t[0]-=var*(1<<i);
-      }
-      return s2;
-    }
-
-    ll maxt = 0;
-    for(ll i = 0; i<n; i++) maxt = max(maxt, t[i]);
-    ll pw2 = 1;
-    vector<ll> exp;
-    while(pw2<=maxt){
-      exp.push_back(0);
-      for(ll i =0; i<n; i++){
-        if(t[i]&pw2){
-          exp[exp.size()-1]++;
+    vector<long long> V(32, 0);
+    for(int i=0; i<N; i++){
+      for(int j=30; j>=0; j--){
+        if(T[i]>= (1<<j)){
+          T[i]=T[i]- (1<<j);
+          V[j]=V[j]+ (1<<j);
         }
       }
-      pw2<<=1;
     }
-    ll idx = 0;
-    ll sol = 0;
-    ll last =0;
-    for(ll i = 0; i<M; i++){
-      //elimino last
-      if(last!=0){
-        if(last < (1<<i)) last = 0;
-        else{
-          ll var = min(last/(1<<i), p[i]);
-          p[i]-=var;
-          last -= var;
-          sol += var;
-        }
-      }
-      if(p[i]==0) continue;
-      while(idx<i) idx++;
-      while(p[i]>0&&idx<exp.size()){
-        if(p[i]>=exp[idx]*(1<<(idx-i))){
-          sol += exp[idx]*(1<<(idx-i));
-          p[i] -= exp[idx]*(1<<(idx-i));
-          idx++;
+    long long S=0;
+    for(int i=0; i<M; i++){
+      long long e= (1<<i);
+      for(int j=i; j<31; j++){
+        if(V[j]>=P[i]*e){
+          V[j]=V[j]-P[i]*e;
+          S=S+P[i];
+          P[i]=0;
         }
         else{
-          ll var = (p[i]/(1<<(idx-i)));
-          sol += p[i];
-          exp[idx]-=var+1;
-          last = (1<<idx)-(p[i]%(1<<(idx-i)))*(1<<i);
-          p[i]=0;
-
+          S=S+V[j]/e;
+          P[i]=P[i]-V[j]/e;
+          V[j]=V[j]%e;
         }
       }
-      if(idx>=exp.size()) break;
     }
-    return sol;
+    return S;
   }
 
 
