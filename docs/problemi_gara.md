@@ -15,6 +15,7 @@ title: Problemi per fonte
 
 ## OIS
 ### 2024
+- [Round 2, Tulips](./problemi.md/tulips.md) tosto
 - [Round 3, Carry bit](./problemi/carry_training.md) richiede teoria
 ### 2023
 ### 2022
