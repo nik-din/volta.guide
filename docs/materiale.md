@@ -1,6 +1,16 @@
 # Materiale
 Qui caricheremo via via materiale.
 
+## Greedy e binary search
+problema intervalli   
+**Introduttivi**
+
+**Interessanti**
+
+**Difficili**
+Nota: questi problemi sono pensati per l'avanzato
+- [Corteo](https://training.olinfo.it/task/oii_corteo)
+
 ## Base
 ### c++ base
 [sintassi base c++](./materiale/cpp_cheatsheet.md)
