@@ -4,12 +4,17 @@ Qui caricheremo via via materiale.
 ## Greedy e binary search
 problema intervalli   
 **Introduttivi**
+- [Annoluce](https://training.olinfo.it/task/ois_annoluce)
+- [Maxim](https://training.olinfo.it/task/ois_maxim)
 
 **Interessanti**
+- [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
+- [Festa estiva](https://training.olinfo.it/task/pre-egoi-festaestiva)
 
 **Difficili**
 Nota: questi problemi sono pensati per l'avanzato
 - [Corteo](https://training.olinfo.it/task/oii_corteo)
+- [Lungomare](https://training.olinfo.it/task/oii_lungomare)
 
 ## Base
 ### c++ base
