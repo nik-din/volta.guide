@@ -6,6 +6,7 @@ problema intervalli
 **Introduttivi**
 - [Annoluce](https://training.olinfo.it/task/ois_annoluce)
 - [Maxim](https://training.olinfo.it/task/ois_maxim)
+- [Truffa](https://training.olinfo.it/task/ois_truffa)
 
 **Interessanti**
 - [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
