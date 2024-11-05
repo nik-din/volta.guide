@@ -7,6 +7,7 @@ problema intervalli
 - [Annoluce](https://training.olinfo.it/task/ois_annoluce)
 - [Maxim](https://training.olinfo.it/task/ois_maxim)
 - [Truffa](https://training.olinfo.it/task/ois_truffa)
+- [avg2](https://training.olinfo.it/task/ois_avg2)
 
 **Interessanti**
 - [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
@@ -16,6 +17,9 @@ problema intervalli
 Nota: questi problemi sono pensati per l'avanzato
 - [Corteo](https://training.olinfo.it/task/oii_corteo)
 - [Lungomare](https://training.olinfo.it/task/oii_lungomare)
+Approfondimenti in più:
+[ternary search](https://cp-algorithms.com/num_methods/ternary_search.html)
+[binary search parallele](https://codeforces.com/blog/entry/45578)
 
 ## Base
 ### c++ base
