@@ -19,9 +19,10 @@ Nota: questi problemi sono pensati per l'avanzato
 - [Wine](https://training.olinfo.it/task/ois_wine)
 - [Corteo](https://training.olinfo.it/task/oii_corteo)
 - [Lungomare](https://training.olinfo.it/task/oii_lungomare)
+
 Approfondimenti in più:
-[ternary search](https://cp-algorithms.com/num_methods/ternary_search.html)
-[binary search parallele](https://codeforces.com/blog/entry/45578)
+- [ternary search](https://cp-algorithms.com/num_methods/ternary_search.html)
+- [binary search parallele](https://codeforces.com/blog/entry/45578)
 
 ## Base
 ### c++ base
