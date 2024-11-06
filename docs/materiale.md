@@ -2,19 +2,21 @@
 Qui caricheremo via via materiale.
 
 ## Greedy e binary search
-problema intervalli   
 **Introduttivi**
 - [Annoluce](https://training.olinfo.it/task/ois_annoluce)
-- [Maxim](https://training.olinfo.it/task/ois_maxim)
+- [Rectangle](https://training.olinfo.it/task/ois_rectangle)
 - [Truffa](https://training.olinfo.it/task/ois_truffa)
 - [avg2](https://training.olinfo.it/task/ois_avg2)
+- [Aeroporto](https://training.olinfo.it/task/oii_aeroporto)
+- [avg](https://training.olinfo.it/task/ois_avg)
 
 **Interessanti**
 - [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
-- [Festa estiva](https://training.olinfo.it/task/pre-egoi-festaestiva)
+- [Altavelocità](https://training.olinfo.it/task/abc_altavelocita)
 
 **Difficili**
 Nota: questi problemi sono pensati per l'avanzato
+- [Wine](https://training.olinfo.it/task/ois_wine)
 - [Corteo](https://training.olinfo.it/task/oii_corteo)
 - [Lungomare](https://training.olinfo.it/task/oii_lungomare)
 Approfondimenti in più:
@@ -33,7 +35,7 @@ Approfondimenti in più:
 - [Avg](https://training.olinfo.it/task/ois_avg)
 - [Interrogazioni](https://training.olinfo.it/task/ois_interrogazioni)
 
-#### Lezione 2 
+#### Lezione 2
 - [Pari](https://training.olinfo.it/task/pari)
 - [Disks](https://training.olinfo.it/task/ois_disks)
 - [Cake](https://training.olinfo.it/task/ois_cake)
@@ -42,9 +44,9 @@ Approfondimenti in più:
 ## Avanzato
 ### Editorial gst
 Ecco l'editorial:
-- [A](./problemi/gather.md) 
+- [A](./problemi/gather.md)
 - [B](./problemi/money.md)
 - [C](./problemi/reading.md)
-- [D](./problemi/renovations.md) 
-  
+- [D](./problemi/renovations.md)
+
 l'E sarà per la prossima volta ;)
