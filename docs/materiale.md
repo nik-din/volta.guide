@@ -12,7 +12,7 @@ Qui caricheremo via via materiale.
 
 **Interessanti**
 - [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
-- [Altavelocità](https://training.olinfo.it/task/abc_altavelocita)
+- [Altavelocità](https://training.olinfo.it/task/abc_altavelocita), [hint e sol](./problemi/altavelocità.md)
 
 **Difficili**
 Nota: questi problemi sono pensati per l'avanzato
