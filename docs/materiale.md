@@ -2,6 +2,8 @@
 Qui caricheremo via via materiale.
 
 ## Greedy e binary search
+[codice binary search](./materiale/binary_search.md)   
+[codice fastexp](./materiale/fastexp.md)    
 **Introduttivi**
 - [Annoluce](https://training.olinfo.it/task/ois_annoluce)
 - [Rectangle](https://training.olinfo.it/task/ois_rectangle)
@@ -14,12 +16,11 @@ Qui caricheremo via via materiale.
 - [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
 - [Altavelocità](https://training.olinfo.it/task/abc_altavelocita), [hint e sol](./problemi/altavelocità.md)
 
-**Difficili**
+**Difficili**   
 Nota: questi problemi sono pensati per l'avanzato
 - [Wine](https://training.olinfo.it/task/ois_wine)
 - [Corteo](https://training.olinfo.it/task/oii_corteo)
-- [Lungomare](https://training.olinfo.it/task/oii_lungomare)
-
+- [Lungomare](https://training.olinfo.it/task/oii_lungomare)    
 Approfondimenti in più:
 - [ternary search](https://cp-algorithms.com/num_methods/ternary_search.html)
 - [binary search parallele](https://codeforces.com/blog/entry/45578)
