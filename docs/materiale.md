@@ -1,6 +1,19 @@
 # Materiale
 Qui caricheremo via via materiale.
 
+## Grafi
+[Appunti lezione](./materiale/grafi.md)
+
+Problemi svolti a lezione:
+ - [ponti](./problemi/ponti.md)
+ - [oii_maree](./problemi/oii_mare.md)
+
+Altri problemi (in ordine di difficoltà):
+ - [sunny](https://training.olinfo.it/task/sunny)
+ - [ois_monete](https://training.olinfo.it/task/ois_monete)
+ - [ois_police2](https://training.olinfo.it/task/ois_patrol2)
+ - [ois_rainstorm](https://training.olinfo.it/task/ois_rainstorm)
+
 ## dp
 problemi fatti a lezione:
 - [poldo](./problemi/poldo.md)
