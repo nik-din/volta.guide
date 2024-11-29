@@ -5,8 +5,8 @@ Qui caricheremo via via materiale.
 [Appunti lezione](./materiale/grafi.md)
 
 Problemi svolti a lezione:
- - [ponti](./problemi/ponti.md)
- - [oii_maree](./problemi/oii_mare.md)
+ - [ois_ponti](./problemi/ois_ponti.md)
+ - [oii_maree](./problemi/oii_maree.md)
 
 Altri problemi (in ordine di difficoltà):
  - [sunny](https://training.olinfo.it/task/sunny)
