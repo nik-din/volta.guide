@@ -67,6 +67,10 @@ La complessita è ```O(N+M)```. Infatti ogni nodo verrà visitato dall'algoritmo
 
 L'implementazione in C++ che usa la lista di adiacenza è:
 ```cpp
+//variabili globali da inizializzare:
+vector<bool> visited; 
+vector<vector<int>> adj;
+
 void dfs(int v) {
   if (visited[v]) return;
   visited[v] = true;
@@ -84,6 +88,13 @@ Anche in questo caso la complessità è ```O(N+M)```.
 
 L'implementazione in C++ che usa la lista di adiacenza è:
 ```cpp
+//variabili:
+vector<vector<int>> adj(n);
+vector<bool> visited(n, 0);
+vector<int> distance(n);
+queue<int> q;
+
+q.push(x); //x è il nodo di partenza
 while (!q.empty()) {
   int u = q.front(); q.pop();
 
@@ -94,4 +105,33 @@ while (!q.empty()) {
     q.push(v);
   }
 }
+```
+
+### Dijkstra
+Dijkstra è un algoritmo per calcolare la distanza (minima) di un nodo a tutti gli altri. Funziona solo con pesi non negativi. L'idea è tenersi un vettore di distanze temporanee e processare ogni volta il nodo a distanza minore. Processare un nodo vuol dire aggiornare le distanze di tutti i vicini. Per capire qual'è il nodo a distanza minore si usa una ```priority_queue``` in cui le distanze vengono messe negative per prendere la più piccola (la ```priority_queue``` ritorna l'elemento maggiore).   
+La complessità è ```O((N+M)logN)```.   
+Implementazione:
+```cpp
+//variabili:
+vector<vector<pair<int, int>>> adj(n);
+vector<bool> visited(n, 0);
+vector<int> distance(n, INT_MAX);
+priority_queue<pair<int, int>> pq;
+
+pq.push({0, x}); //x è il nodo di partenza
+distance[x]=0;
+while(!pq.empty()){
+  int v = pq.top().second;
+  pq.pop();
+  if(visited[v]) continue;
+  visited[v]=1;
+  for(auto e: adj[v]){
+    int u = e.first; int w = e.second;
+    if(distance[u]>distance[v]+w){
+      distance[u]=distance[v]+w;
+      pq.push({-distance[u], u});
+    }
+  }
+}
+
 ```
