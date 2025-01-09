@@ -1,6 +1,17 @@
 # Materiale
 Qui caricheremo via via materiale.
 
+## Greedy2 e sliding window
+Sliding window:
+- [Dante](./problemi/dreamteam.md)
+- [Gathering](./problemi/gather.md)
+
+Greedy:
+- [Dreamteam](./problemi/dreamteam.md)
+- [Money](./problemi/money.md)
+- [Reading](./problemi/reading.md)
+
+
 ## Grafi
 [Appunti lezione](./materiale/grafi.md)
 
