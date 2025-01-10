@@ -96,3 +96,26 @@ Potrebbe servire anche una binary search ;)
 
   Come facciamo a controllare che un certo B funzioni? Spoiler: sliding window
 </details>
+
+
+## Rec
+### Ctf
+<details>
+  <summary>Hint 1:</summary>
+
+  Prova a fare casi piccoli e trovare una formula.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+
+  [https://en.wikipedia.org/wiki/Josephus_problem](https://en.wikipedia.org/wiki/Josephus_problem)
+</details>
+
+### Shiftmul
+<details>
+  <summary>Hint 1:</summary>
+
+  Ricorsione su d/2
+</details>
+
+### Antivirus
