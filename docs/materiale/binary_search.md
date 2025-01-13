@@ -1,5 +1,5 @@
 # Binary search
-Complessità: O(NlogN)
+Complessità: O(logN)
 ## Codice
 ```cpp
 int l, r;

@@ -1,8 +1,9 @@
 # Esponenziazione veloce
-Complessità: O(NlogN)
+Complessità: O(logN) (dove N è l'esponente)
 ## Codice
 ```cpp
 int fastexp(int a, int b){
+    if(b==0) return 1;
     int c = fastexp(a, b/2);
     if(b%2) return c*c*a;
     return c*c;
