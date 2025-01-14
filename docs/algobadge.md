@@ -45,7 +45,7 @@ I problemi in questa categoria richiedono di conoscere l'stl.
 ## Greedy
 Tutti questi problemi si risolvono con tecniche greedy, quindi facendo scelte in modo avido, basandosi su un solo criterio.
 Potrebbe servire anche una binary search ;)
-### Cestini
+### Collezionismo
 <details>
   <summary>Hint 1:</summary>
 
@@ -99,6 +99,19 @@ Potrebbe servire anche una binary search ;)
 
 
 ## Rec
+
+### Antivirus
+<details>
+  <summary>Hint 1:</summary>
+  
+  Le lunghezze delle stringhe sono tutte molto piccole, e abbiamo tanto tempo perché è un problema terry quindi possiamo sostanzialmente fare qualsiasi cosa.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+  
+  Potrebbe essere utile usare sapere che esiste [```stringa.substr(inizio, lunghezza)```](https://en.cppreference.com/w/cpp/string/basic_string/substr) che ritorna una sottostringa e [```stringa.find(sottostringa)```](https://en.cppreference.com/w/cpp/string/basic_string/find) che trova l'indice in cui si trova una sottostringa all'interno di una stringa (se non c'è ritorna -1).
+</details>
+
 ### Ctf
 <details>
   <summary>Hint 1:</summary>
@@ -128,17 +141,26 @@ Potrebbe servire anche una binary search ;)
   Per farlo usiamo il backtracking tenendoci il numero che abbiamo fino ad adesso e procedere per ricorsione aggiungendo 3, 6 o 9 controllando che sia diversa dalla scorsa cifra.
 </details>
 
-
-### Antivirus
+## Math
+### Caramelle
 <details>
   <summary>Hint 1:</summary>
   
-  Le lunghezze delle stringhe sono tutte molto piccole, e abbiamo tanto tempo perché è un problema terry quindi possiamo sostanzialmente fare qualsiasi cosa.
+  La risposta è semplicemente l'mcm dei V[i].
 </details>
 <details>
   <summary>Hint 2:</summary>
   
-  Potrebbe essere utile usare sapere che esiste [```stringa.substr(inizio, lunghezza```)](https://en.cppreference.com/w/cpp/string/basic_string/substr) che ritorna una sottostringa e [```stringa.find(sottostringa)```](https://en.cppreference.com/w/cpp/string/basic_string/find) che trova l'indice in cui si trova una sottostringa all'interno di una stringa (se non c'è ritorna -1).
+  Si può calcolare l'mcm sapendo che mcm(a, b)\*mcd(a, b) = a\*b. Per calcolare l'mcd si può scrivere [l'algoritmo di euclide](https://cp-algorithms.com/algebra/euclid-algorithm.html) o usare [```gcd(a, b)```](https://en.cppreference.com/w/cpp/numeric/gcd).
 </details>
 
+### Rsa 
+<details>
+  <summary>Hint 1:</summary>
+ 
+  Il problema chiede sostanzialmente di calcolare velocemente delle potenze, e questo si può fare con [fastexp](materiale/fastexp.md)
+</details>
+
+### Scrigni
+**todo!**
 
