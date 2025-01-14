@@ -111,11 +111,34 @@ Potrebbe servire anche una binary search ;)
   [https://en.wikipedia.org/wiki/Josephus_problem](https://en.wikipedia.org/wiki/Josephus_problem)
 </details>
 
-### Shiftmul
+### Cabala
 <details>
   <summary>Hint 1:</summary>
-
-  Ricorsione su d/2
+  
+  N è molto piccolo.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+  
+  Posso semplicemente controllare tutti i numeri dell cabala e trovare quello con il massimo resto modulo M.
+</details>
+<details>
+  <summary>Hint 3:</summary>
+  
+  Per farlo usiamo il backtracking tenendoci il numero che abbiamo fino ad adesso e procedere per ricorsione aggiungendo 3, 6 o 9 controllando che sia diversa dalla scorsa cifra.
 </details>
 
+
 ### Antivirus
+<details>
+  <summary>Hint 1:</summary>
+  
+  Le lunghezze delle stringhe sono tutte molto piccole, e abbiamo tanto tempo perché è un problema terry quindi possiamo sostanzialmente fare qualsiasi cosa.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+  
+  Potrebbe essere utile usare sapere che esiste [```stringa.substr(inizio, lunghezza```)](https://en.cppreference.com/w/cpp/string/basic_string/substr) che ritorna una sottostringa e [```stringa.find(sottostringa)```](https://en.cppreference.com/w/cpp/string/basic_string/find) che trova l'indice in cui si trova una sottostringa all'interno di una stringa (se non c'è ritorna -1).
+</details>
+
+
