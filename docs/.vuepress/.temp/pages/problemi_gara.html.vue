@@ -13,6 +13,20 @@
 <ul>
 <li><RouteLink to="/problemi/carry_training.html">Round 3, Carry bit</RouteLink> richiede teoria</li>
 </ul>
+<h3 id="_2023" tabindex="-1"><a class="header-anchor" href="#_2023"><span>2023</span></a></h3>
+<h3 id="_2022" tabindex="-1"><a class="header-anchor" href="#_2022"><span>2022</span></a></h3>
+<ul>
+<li><RouteLink to="/problemi/renovations.html">Round 1, Renovations</RouteLink> conteggi</li>
+<li><RouteLink to="/problemi/reading.html">Final Round, Reading</RouteLink> greedy non banale</li>
+</ul>
+<h3 id="_2021-1" tabindex="-1"><a class="header-anchor" href="#_2021-1"><span>2021</span></a></h3>
+<ul>
+<li><RouteLink to="/problemi/gather.html">Round 3, Gather</RouteLink> semplice</li>
+</ul>
+<h3 id="_2020" tabindex="-1"><a class="header-anchor" href="#_2020"><span>2020</span></a></h3>
+<ul>
+<li><RouteLink to="/problemi/money.html">Round 1, Money</RouteLink> carino</li>
+</ul>
 <h2 id="nazionali" tabindex="-1"><a class="header-anchor" href="#nazionali"><span>Nazionali</span></a></h2>
 <h2 id="internazionali" tabindex="-1"><a class="header-anchor" href="#internazionali"><span>Internazionali</span></a></h2>
 <h3 id="weoi" tabindex="-1"><a class="header-anchor" href="#weoi"><span>WEOI</span></a></h3>
