@@ -221,7 +221,7 @@ swap(v1, v2); //posso swappare tutte le strutture della stl in O(1)
 ```lower_bound``` e ```upper_bound``` servono per trovare in un vettore il primo elemento >= o > di un dato valore.
 ```cpp
 vector<int> vec;
-lower_bound(vec.begin(), vec.end() valore); //ottiene il primo elemento >= del valore complessità: O(logN)
+lower_bound(vec.begin(), vec.end(), valore); //ottiene il primo elemento >= del valore complessità: O(logN)
 lower_bound(vec.begin(), vec.end(), valore) - vec.begin(); //per trovare l'indice dell'elemento trovato complessità: O(logN)
 upper_bound(vec.begin(), vec.end(), valore); //ottiene il primo elemento > del valore complessità: O(logN)
 upper_bound(vec.begin(), vec.end(), valore) - vec.begin(); //per trovare l'indice dell'elemento trovato complessità: O(logN)
