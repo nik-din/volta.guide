@@ -21,13 +21,13 @@ I problemi in questa categoria richiedono di conoscere l'stl.
 <details>
   <summary>Hint 1:</summary>
 
-  Vogliamo tenerci valori di cui non ci interessa l'ordine e possono esserci duplicati. Quindi possiamo usare.....
+  Vogliamo tenerci per ogni id il numero di libri con quell'id.
 </details>
 
 <details>
   <summary>Hint 2:</summary>
 
-  Usa un unordered_multiset
+  Usa una map.
 </details>
 
 ### Autogrill
