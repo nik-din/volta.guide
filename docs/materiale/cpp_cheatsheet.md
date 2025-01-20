@@ -267,13 +267,13 @@ for(auto [c, v]: mp){
 }
 mp.count(chiave); //posso controllare il numero di elementi con una data chiave complessità: O(logN)
 mp.insert({chiave, valore}); //posso aggiungere elementi così complessità: O(logN)
-mp.erase({chiave, valore}); //ed eliminarli così
+mp.erase({chiave, valore}); //ed eliminarli così complessità: O(logN)
 ```
 
 #### unordered-, multi-
 Sia per i set che per le map esistono delle varianti.   
 ```unordered_``` vuol dire che gli elementi non sono ordinati. La complessità delle operazioni scende a O(1) ammortizzato.    
-```multi``` vuol dire che possono essere più elementi con lo stesso valore (nel ```multiset```) o chiave (```multimap```). Nelle ```multimap``` non posso usare ```mp[chiave]```.
+```multi``` vuol dire che ci possono essere più elementi con lo stesso valore (nel ```multiset```) o chiave (```multimap```). Nelle ```multimap``` non posso usare ```mp[chiave]```.
 
 #### queue, stack, list
 Con la queue aggiungo da un lato tolgo/vedo dall'altro (come una coda).
@@ -290,14 +290,14 @@ st.top(); //elemento in cima complessità: O(1)
 st.pop(); //elimino elemento in cima complessità: O(1)
 st.push(valore); //aggiungo elemento in cima complessità: O(1)
 ```
-Con la deque aggiungo e tolto da entrambi i lati, ma posso anche accedere agli elemnti attraverso gli indici!
+Con la deque aggiungo e tolgo da entrambi i lati, ma posso anche accedere agli elementi attraverso gli indici!
 ```cpp
 deque<int> dq;
 dq.front(); //elemento davanti complessità: O(1)
 dq.push_front(valore); //aggiungo elemento davanti: O(1)
-dq.pop_front(); //tolgo elemenot davanti complessità: O(1)
+dq.pop_front(); //tolgo elemento davanti complessità: O(1)
 dq.back(); //elemento dietro complessità: O(1)
 dq.push_back(valore); //aggiungo elemento dietro: O(1)
-dq.pop_back(); //tolgo elemenot dietro complessità: O(1)
+dq.pop_back(); //tolgo elemento dietro complessità: O(1)
 dq[indice]; //accede con gli indici (come i vettori) complessità: O(1)
 ```
