@@ -12,7 +12,7 @@ Argomenti avanzati e poco utili:
 
 ## Greedy2 e sliding window
 Sliding window:
-- [Dante](./problemi/dreamteam.md)
+- [Dante](./problemi/dante.md)
 - [Gathering](./problemi/gather.md)
 
 Greedy:
