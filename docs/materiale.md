@@ -8,11 +8,11 @@ Appunti lezione:
 
 Problemi svolti a lezione:
 - [Nearest Smaller Values](./problemi/1645.md)
-- [Advertisement](./problemi/1142.md)
 - [Pila di monete](./problemi/tai_monete.md)
 
 Altri problemi:
 - Dato un array ```A``` di ```N``` elementi e un intero ```M <= N```, trova il minimo di tutti i subarray (i.e. segmenti continui) di lunghezza ```M``` in ```O(N)```.
+- [Advertisement](./problemi/1142.md)
 - [Maximum Building I](https://cses.fi/problemset/task/1147)
 
 ## Greedy2 e sliding window
