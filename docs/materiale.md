@@ -4,7 +4,7 @@ Qui caricheremo via via materiale.
 ## Dp avanzata
 Una raccolta di argomenti in ordine sparso su dp.
 <!--da aggiungere una spiegazione sul trick delle inversioni-->
-- [Bitmask dp]()
+- [Bitmask dp](./materiale/bitmask_dp.md)
 - [Range dp]()
 Argomenti avanzati e poco utili:
 - [Convex hull trick]()
