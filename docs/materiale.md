@@ -8,7 +8,7 @@ Una raccolta di argomenti in ordine sparso su dp.
 - [Range dp](./materiale/range_dp.md)
 Argomenti avanzati e poco utili:
 - [Convex hull trick](./materiale/cht.md)
-- [Slope trick]()
+- [Slope trick](./materiale/slope_trick.md)
 
 ## Greedy2 e sliding window
 Sliding window:
