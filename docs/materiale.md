@@ -1,6 +1,16 @@
 # Materiale
 Qui caricheremo via via materiale.
 
+## Dp avanzata
+Una raccolta di argomenti in ordine sparso su dp.
+<!--da aggiungere una spiegazione sul trick delle inversioni-->
+- [Bitmask dp]()
+- [Range dp]()
+Argomenti avanzati e poco utili:
+- [Convex hull trick]()
+- [Li chao tree]()
+- [Slope trick]()
+
 ## Greedy2 e sliding window
 Sliding window:
 - [Dante](./problemi/dreamteam.md)
