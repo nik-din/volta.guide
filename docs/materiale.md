@@ -4,6 +4,7 @@ Qui caricheremo via via materiale.
 ## Dp avanzata
 Una raccolta di argomenti in ordine sparso su dp.
 <!--da aggiungere una spiegazione sul trick delle inversioni-->
+- [Inversion trick](./materiale/inversion_trick.md) (chiamo così un trucco per contare il numero di transizioni)
 - [Bitmask dp](./materiale/bitmask_dp.md)
 - [Range dp](./materiale/range_dp.md)
 Argomenti avanzati e poco utili:
