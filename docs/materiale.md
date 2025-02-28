@@ -5,10 +5,9 @@ Qui caricheremo via via materiale.
 Una raccolta di argomenti in ordine sparso su dp.
 <!--da aggiungere una spiegazione sul trick delle inversioni-->
 - [Bitmask dp](./materiale/bitmask_dp.md)
-- [Range dp]()
+- [Range dp](./materiale/range_dp.md)
 Argomenti avanzati e poco utili:
-- [Convex hull trick]()
-- [Li chao tree]()
+- [Convex hull trick](./materiale/cht.md)
 - [Slope trick]()
 
 ## Greedy2 e sliding window
