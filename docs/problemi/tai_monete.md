@@ -20,7 +20,7 @@ Prova a ottimizzare la dp, pensando anche ai tag. Vogliamo calcolare il minimo d
 
 <details>
 <summary>Sketch</summary>
-Per prima cosa pensiamo alla dp in 'O(NK)': per ogni elemento 'i' iteriamo sui '''K''' valori precedenti nella dp e scegliamo il valore ottimale, la soluzione sarà quindi `S - dp[j]`, dove `S` è la somma dei valori delle prime `i` monete (quell che guadagnamo sarà dato dalla differenza tra il totale e quello che guadagna il nostro avversario). Possiamo ottimizzare la dp utilizzando una minqueue: quando calcoliamo `dp[i]` la aggiungiamo in fondo alla minqueue e togliamo il valore di `dp[i-K]`, trovando quindi il minimo in `O(1)`.
+Per prima cosa pensiamo alla dp in O(NK): per ogni elemento i iteriamo sui K valori precedenti nella dp e scegliamo il valore ottimale, la soluzione sarà quindi S - dp[j], dove S è la somma dei valori delle prime i monete (quell che guadagnamo sarà dato dalla differenza tra il totale e quello che guadagna il nostro avversario). Possiamo ottimizzare la dp utilizzando una minqueue: quando calcoliamo dp[i] la aggiungiamo in fondo alla minqueue e togliamo il valore di dp[i-K], trovando quindi il minimo in O(1).
 </details>
 
 <details>
