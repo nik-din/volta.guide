@@ -6,7 +6,14 @@ Repo per il leggendario sito che ci farà fullare le ioi
 ## avviso
 se volete aggiungere qualcosa fate pr.    
 nuovi_problemi è per aggiungere problemi    
-dev è per altro    
+dev è per altro  
+aggiungere questo all'inizio del file markdown per usare inline latex:   
+```
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+```  
 
 ## appunti random
 

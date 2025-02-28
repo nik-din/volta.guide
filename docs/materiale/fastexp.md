@@ -1,5 +1,10 @@
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
+
 # Esponenziazione veloce
-Complessità: O(logN) (dove N è l'esponente)
+Complessità: $O(\text{log}N)$ (dove N è l'esponente)
 ## Codice
 ```cpp
 int fastexp(int a, int b){
