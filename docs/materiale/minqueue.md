@@ -12,7 +12,7 @@ Vediamo ora nel dettaglio le funzioni supportate.
 
 ## Aggiungere un elemento
 Prima di aggiungere un elemento dobbiamo rimuovere tutti quelli già presenti nella queue che sono maggiori di lui e che quindi non potranno mai diventare l'elemento minore.
-In questo caso la complessità è ```O(1)``` amortizzato: una chiamata alla funzione ```add``` può potenzialmente richiedere tante operazioni, ma dato che ogni elemento viene aggiunto alla queue esattamente una volta e viene rimosso al più una volta, il caso medio è costante.
+In questo caso la complessità è $O(1)$ amortizzato: una chiamata alla funzione ```add``` può potenzialmente richiedere tante operazioni, ma dato che ogni elemento viene aggiunto alla queue esattamente una volta e viene rimosso al più una volta, il caso medio è costante.
 ```cpp
 void add(int x) {
     while (!q.empty() && q.back() > x) {

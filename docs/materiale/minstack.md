@@ -1,5 +1,5 @@
 # Minimum Stack
-Lo _stack_ è una struttura dati della STL di tipo LIFO (i.e. Last-In, First-Out), che consente di aggiungere e rimuovere elementi solo dalla cima in ```O(1)```. 
+Lo _stack_ è una struttura dati della STL di tipo LIFO (i.e. Last-In, First-Out), che consente di aggiungere e rimuovere elementi solo dalla cima in $O(1)$. 
 
 Vogliamo modificare lo stack in modo da riuscire a trovare anche il minimo in tempo costante. Per fare ciò memorizzeremo ogni elemento in coppie: l'elemento e il minimo nello stack a partire da questo.
 
