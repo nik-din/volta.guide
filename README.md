@@ -5,8 +5,7 @@ Repo per il leggendario sito che ci farà fullare le ioi
 
 ## avviso
 se volete aggiungere qualcosa fate pr.    
-nuovi_problemi è per aggiungere problemi    
-dev è per altro    
+create pure una branch con un nome sensato 
 
 ## appunti random
 
