@@ -1,6 +1,15 @@
 # Materiale
 Qui caricheremo via via materiale.
 
+## Dp avanzata
+Una raccolta di argomenti in ordine sparso su dp.
+- [Inversion trick](./materiale/inversion_trick.md) (chiamo così un trucco per contare il numero di transizioni)
+- [Bitmask dp](./materiale/bitmask_dp.md)
+- [Range dp](./materiale/range_dp.md)
+Argomenti avanzati e poco utili:
+- [Convex hull trick](./materiale/cht.md)
+- [Slope trick](./materiale/slope_trick.md)
+
 ## Minimum queue/stack
 Appunti lezione:
 - [Minimum Stack](./materiale/minstack.md)
@@ -15,9 +24,10 @@ Altri problemi:
 - [Advertisement](./problemi/1142.md)
 - [Maximum Building I](https://cses.fi/problemset/task/1147)
 
+
 ## Greedy2 e sliding window
 Sliding window:
-- [Dante](./problemi/dreamteam.md)
+- [Dante](./problemi/dante.md)
 - [Gathering](./problemi/gather.md)
 
 Greedy:
