@@ -10,6 +10,21 @@ Argomenti avanzati e poco utili:
 - [Convex hull trick](./materiale/cht.md)
 - [Slope trick](./materiale/slope_trick.md)
 
+## Minimum queue/stack
+Appunti lezione:
+- [Minimum Stack](./materiale/minstack.md)
+- [Minimum Queue](./materiale/minqueue.md)
+
+Problemi svolti a lezione:
+- [Nearest Smaller Values](./problemi/1645.md)
+- [Pila di monete](./problemi/tai_monete.md)
+
+Altri problemi:
+- Dato un array ```A``` di ```N``` elementi e un intero ```M <= N```, trova il minimo di tutti i subarray (i.e. segmenti continui) di lunghezza ```M``` in ```O(N)```.
+- [Advertisement](./problemi/1142.md)
+- [Maximum Building I](https://cses.fi/problemset/task/1147)
+
+
 ## Greedy2 e sliding window
 Sliding window:
 - [Dante](./problemi/dante.md)
