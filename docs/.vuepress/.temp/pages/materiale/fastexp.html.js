@@ -1,5 +1,5 @@
 import comp from "/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/fastexp.html.vue"
-const data = JSON.parse("{\"path\":\"/materiale/fastexp.html\",\"title\":\"Esponenziazione veloce\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Codice\",\"slug\":\"codice\",\"link\":\"#codice\",\"children\":[]},{\"level\":2,\"title\":\"Risorse esterne\",\"slug\":\"risorse-esterne\",\"link\":\"#risorse-esterne\",\"children\":[]}],\"git\":{\"updatedTime\":1731015245000,\"contributors\":[{\"name\":\"nik-din\",\"email\":\"nik.dindo@gmail.com\",\"commits\":1}]},\"filePathRelative\":\"materiale/fastexp.md\"}")
+const data = JSON.parse("{\"path\":\"/materiale/fastexp.html\",\"title\":\"Esponenziazione veloce\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Codice\",\"slug\":\"codice\",\"link\":\"#codice\",\"children\":[]},{\"level\":2,\"title\":\"Risorse esterne\",\"slug\":\"risorse-esterne\",\"link\":\"#risorse-esterne\",\"children\":[]}],\"git\":{\"updatedTime\":1740778779000,\"contributors\":[{\"name\":\"nik-din\",\"email\":\"nik.dindo@gmail.com\",\"commits\":3}]},\"filePathRelative\":\"materiale/fastexp.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
