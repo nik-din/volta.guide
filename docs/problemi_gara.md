@@ -15,7 +15,7 @@ title: Problemi per fonte
 
 ## OIS
 ### 2024
-- [Round 2, Tulips](./problemi.md/tulips.md) tosto
+- [Round 2, Tulips](./problemi/tulips.md) tosto
 - [Round 3, Carry bit](./problemi/carry_training.md) richiede teoria
 ### 2023
 ### 2022
@@ -23,6 +23,7 @@ title: Problemi per fonte
 - [Final Round, Reading](./problemi/reading.md) greedy non banale
 ### 2021
 - [Round 3, Gather](./problemi/gather.md) semplice
+- [Round 3, Walker](./problemi/walker.md) math
 ### 2020
 - [Round 1, Money](./problemi/money.md) carino
 
