@@ -11,6 +11,7 @@
 <h2 id="ois" tabindex="-1"><a class="header-anchor" href="#ois"><span>OIS</span></a></h2>
 <h3 id="_2024" tabindex="-1"><a class="header-anchor" href="#_2024"><span>2024</span></a></h3>
 <ul>
+<li><RouteLink to="/problemi/tulips.html">Round 2, Tulips</RouteLink> tosto</li>
 <li><RouteLink to="/problemi/carry_training.html">Round 3, Carry bit</RouteLink> richiede teoria</li>
 </ul>
 <h3 id="_2023" tabindex="-1"><a class="header-anchor" href="#_2023"><span>2023</span></a></h3>
@@ -22,6 +23,7 @@
 <h3 id="_2021-1" tabindex="-1"><a class="header-anchor" href="#_2021-1"><span>2021</span></a></h3>
 <ul>
 <li><RouteLink to="/problemi/gather.html">Round 3, Gather</RouteLink> semplice</li>
+<li><RouteLink to="/problemi/walker.html">Round 3, Walker</RouteLink> math</li>
 </ul>
 <h3 id="_2020" tabindex="-1"><a class="header-anchor" href="#_2020"><span>2020</span></a></h3>
 <ul>

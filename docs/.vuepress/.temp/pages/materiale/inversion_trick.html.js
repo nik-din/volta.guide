@@ -1,0 +1,3 @@
+import comp from "/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/inversion_trick.html.vue"
+const data = JSON.parse("{\"path\":\"/materiale/inversion_trick.html\",\"title\":\"Inversion trick\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Risorse\",\"slug\":\"risorse\",\"link\":\"#risorse\",\"children\":[]},{\"level\":2,\"title\":\"Problemi\",\"slug\":\"problemi\",\"link\":\"#problemi\",\"children\":[]}],\"git\":{\"updatedTime\":1740780189000,\"contributors\":[{\"name\":\"nik-din\",\"username\":\"nik-din\",\"email\":\"166943552+nik-din@users.noreply.github.com\",\"commits\":1,\"url\":\"https://github.com/nik-din\"}]},\"filePathRelative\":\"materiale/inversion_trick.md\"}")
+export { comp, data }
