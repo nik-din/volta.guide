@@ -1,0 +1,29 @@
+import _sfc_main from "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML?vue&type=script&src=true&lang.js?config=TeX-AMS-MML_HTMLorMML";
+import { ssrRenderAttrs, ssrRenderStyle } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "../app.CQJnseO0.mjs";
+import "@vuepress/shared";
+import "vue-router";
+import "@vueuse/core";
+import "@vue/devtools-api";
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="esponenziazione-veloce" tabindex="-1"><a class="header-anchor" href="#esponenziazione-veloce"><span>Esponenziazione veloce</span></a></h1><p>Complessità: $O(\\text{log}N)$ (dove N è l&#39;esponente)</p><h2 id="codice" tabindex="-1"><a class="header-anchor" href="#codice"><span>Codice</span></a></h2><div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp" data-title="cpp"><pre><code><span class="line"><span class="token keyword">int</span> <span class="token function">fastexp</span><span class="token punctuation">(</span><span class="token keyword">int</span> a<span class="token punctuation">,</span> <span class="token keyword">int</span> b<span class="token punctuation">)</span><span class="token punctuation">{</span></span>
+<span class="line">    <span class="token keyword">if</span><span class="token punctuation">(</span>b<span class="token operator">==</span><span class="token number">0</span><span class="token punctuation">)</span> <span class="token keyword">return</span> <span class="token number">1</span><span class="token punctuation">;</span></span>
+<span class="line">    <span class="token keyword">int</span> c <span class="token operator">=</span> <span class="token function">fastexp</span><span class="token punctuation">(</span>a<span class="token punctuation">,</span> b<span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
+<span class="line">    <span class="token keyword">if</span><span class="token punctuation">(</span>b<span class="token operator">%</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token keyword">return</span> c<span class="token operator">*</span>c<span class="token operator">*</span>a<span class="token punctuation">;</span></span>
+<span class="line">    <span class="token keyword">return</span> c<span class="token operator">*</span>c<span class="token punctuation">;</span></span>
+<span class="line"><span class="token punctuation">}</span></span>
+<span class="line"></span></code></pre><div class="line-numbers" aria-hidden="true" style="${ssrRenderStyle({ "counter-reset": "line-number 0" })}"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>Attenti a overflow, spesso va implementato con i <code>long long</code> e i moduli.</p><h2 id="risorse-esterne" tabindex="-1"><a class="header-anchor" href="#risorse-esterne"><span>Risorse esterne</span></a></h2><p><a href="https://cp-algorithms.com/algebra/binary-exp.html" target="_blank" rel="noopener noreferrer">https://cp-algorithms.com/algebra/binary-exp.html</a></p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add(".vuepress/.temp/pages/materiale/fastexp.html.vue");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const fastexp_html = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender], ["__file", "fastexp.html.vue"]]);
+const data = JSON.parse('{"path":"/materiale/fastexp.html","title":"Esponenziazione veloce","lang":"en-US","frontmatter":{},"headers":[{"level":2,"title":"Codice","slug":"codice","link":"#codice","children":[]},{"level":2,"title":"Risorse esterne","slug":"risorse-esterne","link":"#risorse-esterne","children":[]}],"git":{"updatedTime":1740778779000,"contributors":[{"name":"nik-din","username":"nik-din","email":"nik.dindo@gmail.com","commits":3,"url":"https://github.com/nik-din"}]},"filePathRelative":"materiale/fastexp.md"}');
+export {
+  fastexp_html as comp,
+  data
+};

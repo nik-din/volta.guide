@@ -12,7 +12,6 @@
   },
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
-    "@vuepress/plugin-markdown-math": "2.0.0-rc.80",
     "@vuepress/theme-default": "2.0.0-rc.80",
     "mathjax-full": "^3.2.2",
     "sass-embedded": "^1.85.1",
