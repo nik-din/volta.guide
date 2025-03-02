@@ -4,8 +4,7 @@ Repo per il leggendario sito che ci farà fullare le ioi
 
 
 ## avviso
-se volete aggiungere qualcosa fate pr.    
-create pure una branch con un nome sensato 
+se volete aggiungere qualcosa fate pr (dovete forkare la repo)
 
 ## appunti random
 
