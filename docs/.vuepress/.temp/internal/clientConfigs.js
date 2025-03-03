@@ -5,8 +5,10 @@ import * as clientConfig3 from '/home/nikolka/Scrivania/progetti/volta.guide/nod
 import * as clientConfig4 from '/home/nikolka/Scrivania/progetti/volta.guide/node_modules/@vuepress/plugin-medium-zoom/lib/client/config.js'
 import * as clientConfig5 from '/home/nikolka/Scrivania/progetti/volta.guide/node_modules/@vuepress/plugin-nprogress/lib/client/config.js'
 import * as clientConfig6 from '/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/prismjs/config.js'
-import * as clientConfig7 from '/home/nikolka/Scrivania/progetti/volta.guide/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
-import * as clientConfig8 from '/home/nikolka/Scrivania/progetti/volta.guide/node_modules/@vuepress/theme-default/lib/client/config.js'
+import * as clientConfig7 from '/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/markdown-tab/config.js'
+import * as clientConfig8 from '/home/nikolka/Scrivania/progetti/volta.guide/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
+import * as clientConfig9 from '/home/nikolka/Scrivania/progetti/volta.guide/node_modules/@vuepress/theme-default/lib/client/config.js'
+import * as clientConfig10 from '/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/markdown-math/config.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -18,4 +20,6 @@ export const clientConfigs = [
   clientConfig6,
   clientConfig7,
   clientConfig8,
+  clientConfig9,
+  clientConfig10,
 ].map((m) => m.default).filter(Boolean)

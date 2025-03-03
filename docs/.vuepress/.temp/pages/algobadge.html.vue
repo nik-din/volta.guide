@@ -16,11 +16,11 @@ Per questo non dovrebbero servire hint, se avete bug che non capite come risolve
 <h3 id="catalogo" tabindex="-1"><a class="header-anchor" href="#catalogo"><span>Catalogo</span></a></h3>
 <details>
   <summary>Hint 1:</summary>
-<p>Vogliamo tenerci valori di cui non ci interessa l'ordine e possono esserci duplicati. Quindi possiamo usare.....</p>
+<p>Vogliamo tenerci per ogni id il numero di libri con quell'id.</p>
 </details>
 <details>
   <summary>Hint 2:</summary>
-<p>Usa un unordered_multiset</p>
+<p>Usa una map.</p>
 </details>
 <h3 id="autogrill" tabindex="-1"><a class="header-anchor" href="#autogrill"><span>Autogrill</span></a></h3>
 <details>

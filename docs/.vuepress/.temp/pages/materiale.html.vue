@@ -1,9 +1,36 @@
 <template><div><h1 id="materiale" tabindex="-1"><a class="header-anchor" href="#materiale"><span>Materiale</span></a></h1>
 <p>Qui caricheremo via via materiale.</p>
+<h2 id="dp-avanzata" tabindex="-1"><a class="header-anchor" href="#dp-avanzata"><span>Dp avanzata</span></a></h2>
+<p>Una raccolta di argomenti in ordine sparso su dp.</p>
+<ul>
+<li><RouteLink to="/materiale/inversion_trick.html">Inversion trick</RouteLink> (chiamo così un trucco per contare il numero di transizioni)</li>
+<li><RouteLink to="/materiale/bitmask_dp.html">Bitmask dp</RouteLink></li>
+<li><RouteLink to="/materiale/range_dp.html">Range dp</RouteLink>
+Argomenti avanzati e poco utili:</li>
+<li><RouteLink to="/materiale/cht.html">Convex hull trick</RouteLink></li>
+<li><RouteLink to="/materiale/slope_trick.html">Slope trick</RouteLink></li>
+</ul>
+<h2 id="minimum-queue-stack" tabindex="-1"><a class="header-anchor" href="#minimum-queue-stack"><span>Minimum queue/stack</span></a></h2>
+<p>Appunti lezione:</p>
+<ul>
+<li><RouteLink to="/materiale/minstack.html">Minimum Stack</RouteLink></li>
+<li><RouteLink to="/materiale/minqueue.html">Minimum Queue</RouteLink></li>
+</ul>
+<p>Problemi svolti a lezione:</p>
+<ul>
+<li><RouteLink to="/problemi/1645.html">Nearest Smaller Values</RouteLink></li>
+<li><RouteLink to="/problemi/tai_monete.html">Pila di monete</RouteLink></li>
+</ul>
+<p>Altri problemi:</p>
+<ul>
+<li>Dato un array <code v-pre>A</code> di <code v-pre>N</code> elementi e un intero <code v-pre>M &lt;= N</code>, trova il minimo di tutti i subarray (i.e. segmenti continui) di lunghezza <code v-pre>M</code> in <code v-pre>O(N)</code>.</li>
+<li><RouteLink to="/problemi/1142.html">Advertisement</RouteLink></li>
+<li><a href="https://cses.fi/problemset/task/1147" target="_blank" rel="noopener noreferrer">Maximum Building I</a></li>
+</ul>
 <h2 id="greedy2-e-sliding-window" tabindex="-1"><a class="header-anchor" href="#greedy2-e-sliding-window"><span>Greedy2 e sliding window</span></a></h2>
 <p>Sliding window:</p>
 <ul>
-<li><RouteLink to="/problemi/dreamteam.html">Dante</RouteLink></li>
+<li><RouteLink to="/problemi/dante.html">Dante</RouteLink></li>
 <li><RouteLink to="/problemi/gather.html">Gathering</RouteLink></li>
 </ul>
 <p>Greedy:</p>
