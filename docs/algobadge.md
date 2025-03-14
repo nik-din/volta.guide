@@ -146,7 +146,7 @@ Potrebbe servire anche una binary search ;)
 <details>
   <summary>Hint 1:</summary>
   
-  La risposta è semplicemente l'mcm dei V[i].
+La risposta è semplicemente l'mcm dei V[i].
 </details>
 <details>
   <summary>Hint 2:</summary>
@@ -162,5 +162,63 @@ Potrebbe servire anche una binary search ;)
 </details>
 
 ### Scrigni
-**todo!**
+**todo**
+<details>
+  <summary>Hint 1:</summary>
 
+  Fai conti e viene una formula chiusa.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+
+  Se ci sono $k$ scrigni tra cui scegliere qual'è la probabilità di beccare subito quello giusto?  
+</details>
+<details>
+  <summary>Hint 3:</summary>
+
+  In media quante scosse prendo per indovinare il prossimo scrigno se ne ho già indovinati $n-k$?
+</details>
+<details>
+  <summary>Hint 4:</summary>
+
+  Se non sei riuscito a fare il calcolo dell'hint prima, prova a capire quanto viene questa sommatoria: $\frac{0}{k}$
+</details>
+
+
+
+
+<!---->
+
+## Grafi
+### Interruttori
+<details>
+<summary>Hint 1</summary>
+
+Per riuscire a spegnere tutte le lampadine è necessario arrivare a un interruttore di tipo 1, quindi...
+</details>
+
+<details>
+<summary>Hint 2</summary>
+
+...quindi vogliamo trovare il nodo che massimizza il minimo delle distanze da un interruttore di tipo 1.
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+Visto che il grafo non è pesato basta fare una BFS a più sorgenti partendo dalle lampadine spente dagli interruttori di tipo 1 e vedere la lampadina con distanza maggiore. (per fare una bfs a più sorgenti basta aggiungere alla queue tutti i nodi da cui vogliamo partire e eseguire il classico algoritmo)
+</details>
+
+### Connessioni
+<details>
+  <summary>Hint 1:</summary>
+
+   Implementa una [dsu](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
+</details>
+
+### Mincammino2
+<details>
+  <summary>Hint 1:</summary>
+
+  Implementa [dijkstra](materiale/grafi.md)
+</details>
