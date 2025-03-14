@@ -11,3 +11,5 @@ Overview del sito:
 - [Link](./link.md) contiene link e risorse utili
 - [Algobadge](./algobadge.md) contiene hint ai problemi di algobadge 
 - [Problemi per fonte](./problemi_gara.md) contiene una raccolta di problemi divisi per fonte 
+
+Per contribuire: [repo](https://github.com/nik-din/volta.guide)
