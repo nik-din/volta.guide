@@ -146,7 +146,7 @@ Potrebbe servire anche una binary search ;)
 <details>
   <summary>Hint 1:</summary>
   
-  La risposta è semplicemente l'mcm dei V[i].
+La risposta è semplicemente l'mcm dei V[i].
 </details>
 <details>
   <summary>Hint 2:</summary>
@@ -162,5 +162,53 @@ Potrebbe servire anche una binary search ;)
 </details>
 
 ### Scrigni
-**todo!**
+**todo**
+<details>
+  <summary>Hint 1:</summary>
+
+  Fai conti e viene una formula chiusa.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+
+  Se ci sono $k$ scrigni tra cui scegliere qual'è la probabilità di beccare subito quello giusto?  
+</details>
+<details>
+  <summary>Hint 3:</summary>
+
+  In media quante scosse prendo per indovinare il prossimo scrigno se ne ho già indovinati $n-k$?
+</details>
+<details>
+  <summary>Hint 4:</summary>
+
+  Se non sei riuscito a fare il calcolo dell'hint prima, prova a capire quanto viene questa sommatoria: $\frac{0}{k}$
+</details>
+
+
+
+
+<!---->
+
+## Grafi
+### Interrutori
+<details>
+  <summary>Hint 1:</summary>
+
+
+</details>
+
+### Connessioni
+<details>
+  <summary>Hint 1:</summary>
+
+   Implementa una [dsu](https://cp-algorithms.com/data_structures/disjoint_set_union.html)
+</details>
+
+### Mincammino2
+<details>
+  <summary>Hint 1:</summary>
+
+  Implementa [dijkstra](materiale/grafi.md)
+</details>
+
 
