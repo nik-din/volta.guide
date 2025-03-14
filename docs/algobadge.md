@@ -190,11 +190,23 @@ La risposta è semplicemente l'mcm dei V[i].
 <!---->
 
 ## Grafi
-### Interrutori
+### Interruttori
 <details>
-  <summary>Hint 1:</summary>
+<summary>Hint 1</summary>
 
+Per riuscire a spegnere tutte le lampadine è necessario arrivare a un interruttore di tipo 1, quindi...
+</details>
 
+<details>
+<summary>Hint 2</summary>
+
+...quindi vogliamo trovare il nodo che massimizza il minimo delle distanze da un interruttore di tipo 1.
+</details>
+
+<details>
+<summary>Hint 3</summary>
+
+Visto che il grafo non è pesato basta fare una BFS a più sorgenti partendo dalle lampadine spente dagli interruttori di tipo 1 e vedere la lampadina con distanza maggiore. (per fare una bfs a più sorgenti basta aggiungere alla queue tutti i nodi da cui vogliamo partire e eseguire il classico algoritmo)
 </details>
 
 ### Connessioni
@@ -210,5 +222,3 @@ La risposta è semplicemente l'mcm dei V[i].
 
   Implementa [dijkstra](materiale/grafi.md)
 </details>
-
-
