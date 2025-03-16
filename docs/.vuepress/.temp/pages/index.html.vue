@@ -8,6 +8,7 @@ Questo sito vuole essere una risorsa per gli informatici del Volta (e non). Prim
 <li><RouteLink to="/algobadge.html">Algobadge</RouteLink> contiene hint ai problemi di algobadge</li>
 <li><RouteLink to="/problemi_gara.html">Problemi per fonte</RouteLink> contiene una raccolta di problemi divisi per fonte</li>
 </ul>
+<p>Per contribuire: <a href="https://github.com/nik-din/volta.guide" target="_blank" rel="noopener noreferrer">repo</a></p>
 </div></template>
 
 

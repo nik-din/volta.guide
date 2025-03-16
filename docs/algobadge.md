@@ -44,7 +44,7 @@ I problemi in questa categoria richiedono di conoscere l'stl.
 
 ## Greedy
 Tutti questi problemi si risolvono con tecniche greedy, quindi facendo scelte in modo avido, basandosi su un solo criterio.
-Potrebbe servire anche una binary search ;)
+Potrebbe servire anche una [binary search](materiale/binary_search.md) ;)
 ### Collezionismo
 <details>
   <summary>Hint 1:</summary>
@@ -99,8 +99,9 @@ Potrebbe servire anche una binary search ;)
 
 
 ## Rec
-
+Questa categoria richiede sapere cos'è la ricorsione e l'induzione, cioè risolvere un problema a partire da versioni più piccole del problema stesso.
 ### Antivirus
+Non so cosa ci faccia questo problema in questa categoria.
 <details>
   <summary>Hint 1:</summary>
   
@@ -142,6 +143,7 @@ Potrebbe servire anche una binary search ;)
 </details>
 
 ## Math
+Questa categoria richiede conoscenze generiche di matematica e [fastexp](materiale/fastexp.md).
 ### Caramelle
 <details>
   <summary>Hint 1:</summary>
@@ -162,11 +164,10 @@ La risposta è semplicemente l'mcm dei V[i].
 </details>
 
 ### Scrigni
-**todo**
 <details>
   <summary>Hint 1:</summary>
 
-  Fai conti e viene una formula chiusa.
+  Fai conti o fai casi piccoli e viene una formula chiusa. Se non sai come leggi i prossimi hint.
 </details>
 <details>
   <summary>Hint 2:</summary>
@@ -181,15 +182,26 @@ La risposta è semplicemente l'mcm dei V[i].
 <details>
   <summary>Hint 4:</summary>
 
-  Se non sei riuscito a fare il calcolo dell'hint prima, prova a capire quanto viene questa sommatoria: $\frac{0}{k}$
+  Se non sei riuscito a fare il calcolo dell'hint prima, prova a sommare per ogni $0 \leq i\leq k-1$ la probabilità di ricevere $i$ scosse per $i$.     
+</details>
+<details>
+  <summary>Hint 5:</summary>
+
+  Dovrebbe venire qualcosa del genere: $\frac{1}{k}\cdot 0 + \frac{k-1}{k}\frac{1}{k-1}\cdot 1 + \frac{k-1}{k}\frac{k-2}{k-1}\frac{1}{k-2}\cdot 2 \dots = \frac{0}{k} + \frac{1}{k} + \frac{2}{k} \dots$
+</details>
+<details>
+  <summary>Hint 6:</summary>
+
+  Adesso se chiamiamo $f_k$ il numero medio di scosse avendo indovinato $n-k$ scrigni la risposta al problema sarà: $f_n + f_{n-1} + \dots + f_1$
+</details>
+<details>
+  <summary>Hint 7:</summary>
+
+  Se non ti è chiaro come trasformare tutto questo in un'unica formula chiusa ricordati che la somma dei numeri da 1 a $n$ è $\frac{n(n+1)}{2}$.
 </details>
 
-
-
-
-<!---->
-
 ## Grafi
+Questa categoria richiede di conoscere [la teoria sui grafi](materiale/grafi.md) e la [dsu](https://cp-algorithms.com/data_structures/disjoint_set_union.html).
 ### Interruttori
 <details>
 <summary>Hint 1</summary>
@@ -220,5 +232,5 @@ Visto che il grafo non è pesato basta fare una BFS a più sorgenti partendo dal
 <details>
   <summary>Hint 1:</summary>
 
-  Implementa [dijkstra](materiale/grafi.md)
+  Implementa [dijkstra](materiale/grafi.md#dijkstra)
 </details>
