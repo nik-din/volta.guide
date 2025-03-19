@@ -1,6 +1,13 @@
 # Materiale
 Qui caricheremo via via materiale.
 
+## Pragma
+```cpp
+#pragma GCC optimize("O3,unroll-loops,fast-math,trapv")
+#pragma GCC target("popcnt,avx2,avx512bw")
+```
+```trap2``` crasha con overflow.
+
 ## Dp avanzata
 Una raccolta di argomenti in ordine sparso su dp.
 - [Inversion trick](./materiale/inversion_trick.md) (chiamo così un trucco per contare il numero di transizioni)
