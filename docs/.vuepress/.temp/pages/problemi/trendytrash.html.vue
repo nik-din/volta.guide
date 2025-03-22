@@ -28,7 +28,7 @@ Il tutto stando attenti ad aggiornare il valore delle somme.</p>
 <br></br>
 <details>
   <summary>Soluzione:</summary>
-<div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp" data-title="cpp"><pre v-pre><code><span class="line"><span class="token comment">//codice di carena</span></span>
+<div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp"><pre v-pre><code><span class="line"><span class="token comment">//codice di carena</span></span>
 <span class="line"><span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;bits/stdc++.h></span></span></span>
 <span class="line"></span>
 <span class="line"><span class="token keyword">using</span> <span class="token keyword">namespace</span> std<span class="token punctuation">;</span></span>

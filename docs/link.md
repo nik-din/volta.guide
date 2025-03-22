@@ -20,7 +20,7 @@
 - [book.pdf](https://cses.fi/book/book.pdf) la bibbia del competitive programming
 - [cp-algorithms](https://cp-algorithms.com/) la seconda bibbia, forse anche più importante    
 book.pdf e cp algorithms sono abbastanza (anzi troppo) per la maggior parte della teoria. 
-- [usaco.guide](https://usaco.guide/) sito delle olimpaidi americane, risorsa ben curata e talvolta utile
+- [usaco.guide](https://usaco.guide/) sito delle olimpaidi americane, risorsa ben curata e utile
 - [wiki.olinfo](https://wiki.olinfo.it) sito con una raccolta di argomenti, problemi e materiale soprattutto di stage passati. qualche volta spuntano soluzioni a problemi delle ois o oii.
 - Diversi cper hanno le loro soluzioni di training su una repo pubblica. Un esempio è quella di [ferrari](https://github.com/lorenzo-ferrari/olinfo) con soluzioni a quasi tutti i problemi su training. Da non abusare pls.
 

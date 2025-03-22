@@ -14,12 +14,12 @@ Non particolarmente illuminante
   Ignora K e trova una formula per calcolare le query
 </details>
 <details>
-  <summary>Hint 3:</summary>
+  <summary>Hint 2:</summary>
 
   Come tratto gli elementi < K?
 </details>
 <details>
-  <summary>Hint 2:</summary>
+  <summary>Hint 3:</summary>
 
   Usa un segment, precacola il fattoriale e usa gli inversi per calcolare la formula in logN
 </details>

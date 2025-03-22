@@ -1,7 +1,7 @@
 <template><div><h1 id="binary-search" tabindex="-1"><a class="header-anchor" href="#binary-search"><span>Binary search</span></a></h1>
 <p>Complessità: O(logN)</p>
 <h2 id="codice" tabindex="-1"><a class="header-anchor" href="#codice"><span>Codice</span></a></h2>
-<div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp" data-title="cpp"><pre v-pre><code><span class="line"><span class="token keyword">int</span> l<span class="token punctuation">,</span> r<span class="token punctuation">;</span></span>
+<div class="language-cpp line-numbers-mode" data-highlighter="prismjs" data-ext="cpp"><pre v-pre><code><span class="line"><span class="token keyword">int</span> l<span class="token punctuation">,</span> r<span class="token punctuation">;</span></span>
 <span class="line">l <span class="token operator">=</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span> r <span class="token operator">=</span> n<span class="token punctuation">;</span></span>
 <span class="line"><span class="token keyword">while</span><span class="token punctuation">(</span>r<span class="token operator">-</span>l<span class="token operator">></span><span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">{</span></span>
 <span class="line">    <span class="token keyword">int</span> m <span class="token operator">=</span> <span class="token punctuation">(</span>l<span class="token operator">+</span>r<span class="token punctuation">)</span><span class="token operator">/</span><span class="token number">2</span><span class="token punctuation">;</span></span>

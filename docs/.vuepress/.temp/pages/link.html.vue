@@ -22,7 +22,7 @@
 <li><a href="https://cses.fi/book/book.pdf" target="_blank" rel="noopener noreferrer">book.pdf</a> la bibbia del competitive programming</li>
 <li><a href="https://cp-algorithms.com/" target="_blank" rel="noopener noreferrer">cp-algorithms</a> la seconda bibbia, forse anche più importante<br>
 book.pdf e cp algorithms sono abbastanza (anzi troppo) per la maggior parte della teoria.</li>
-<li><a href="https://usaco.guide/" target="_blank" rel="noopener noreferrer">usaco.guide</a> sito delle olimpaidi americane, risorsa ben curata e talvolta utile</li>
+<li><a href="https://usaco.guide/" target="_blank" rel="noopener noreferrer">usaco.guide</a> sito delle olimpaidi americane, risorsa ben curata e utile</li>
 <li><a href="https://wiki.olinfo.it" target="_blank" rel="noopener noreferrer">wiki.olinfo</a> sito con una raccolta di argomenti, problemi e materiale soprattutto di stage passati. qualche volta spuntano soluzioni a problemi delle ois o oii.</li>
 <li>Diversi cper hanno le loro soluzioni di training su una repo pubblica. Un esempio è quella di <a href="https://github.com/lorenzo-ferrari/olinfo" target="_blank" rel="noopener noreferrer">ferrari</a> con soluzioni a quasi tutti i problemi su training. Da non abusare pls.</li>
 </ul>
