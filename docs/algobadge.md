@@ -99,7 +99,7 @@ Potrebbe servire anche una [binary search](materiale/binary_search.md) ;)
 
 
 ## Rec
-Questa categoria richiede sapere cos'è la ricorsione e l'induzione, cioè risolvere un problema a partire da versioni più piccole del problema stesso.
+Questa categoria richiede di sapere cos'è la ricorsione e l'induzione, cioè risolvere un problema a partire da versioni più piccole del problema stesso.
 ### Antivirus
 Non so cosa ci faccia questo problema in questa categoria.
 <details>
@@ -233,4 +233,54 @@ Visto che il grafo non è pesato basta fare una BFS a più sorgenti partendo dal
   <summary>Hint 1:</summary>
 
   Implementa [dijkstra](materiale/grafi.md#dijkstra)
+</details>
+
+
+## Ds
+Questa categoria richiede di conoscere il concetto di prefix sum e strutture dati come il segment tree.
+
+### Calcio
+<details>
+  <summary>Hint 1:</summary>
+
+  Posso provare tutti i possibili campi da calcio.
+</details>
+<details>
+  <summary>Hint 2:</summary>
+
+  ISe solo potessi generalizzare la prefix sum a più dimensioni...
+</details>
+<details>
+  <summary>Hint 3:</summary>
+
+  Usa una [prefix sum 2d](https://usaco.guide/silver/more-prefix-sums?lang=cpp#2d-prefix-sums).
+</details>
+
+### Museo
+<details>
+  <summary>Hint 1:</summary>
+
+  Implementa un segment tree.
+</details>
+
+### Paletta
+<details>
+  <summary>Hint 1:</summary>
+
+  Come faccio a controllare se posso sortare una data lista?
+</details>
+<details>
+  <summary>Hint 2:</summary>
+
+  Forse la parità degli indici si comporta in modo interessante...
+</details>
+<details>
+  <summary>Hint 3:</summary>
+
+  Come faccio a contare il numero di passaggi richiesti?
+</details>
+<details>
+  <summary>Hint 4:</summary>
+
+  Il problema si riconduce a contare il numero di inversioni in un array. Posso farlo con un segment tree?
 </details>
