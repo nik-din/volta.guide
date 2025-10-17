@@ -135,3 +135,11 @@ while(!pq.empty()){
 }
 
 ```
+
+## Problemi
+- [ois_ponti](./problemi/ois_ponti.md)
+- [oii_maree](./problemi/oii_maree.md)
+- [sunny](https://training.olinfo.it/task/sunny)
+- [ois_monete](https://training.olinfo.it/task/ois_monete)
+- [ois_police2](https://training.olinfo.it/task/ois_patrol2)
+- [ois_rainstorm](https://training.olinfo.it/task/ois_rainstorm)
