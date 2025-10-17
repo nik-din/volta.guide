@@ -13,6 +13,7 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.24",
     "@vuepress/theme-default": "2.0.0-rc.114",
+    "@vuepress/plugin-markdown-math": "2.0.0-rc.114",
     "mathjax-full": "*",
     "sass-embedded": "*",
     "vue": "^3.5.22",

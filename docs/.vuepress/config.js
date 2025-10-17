@@ -1,7 +1,7 @@
 import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress/cli'
 import { viteBundler } from '@vuepress/bundler-vite'
-// import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
+import { markdownMathPlugin } from '@vuepress/plugin-markdown-math'
 
 export default defineUserConfig({
   lang: 'en-US',
@@ -18,8 +18,8 @@ export default defineUserConfig({
   bundler: viteBundler(),
 
   plugins: [
-    // markdownMathPlugin({
-    //   // options
-    // }),
+    markdownMathPlugin({
+      // options
+    }),
   ],
 })
