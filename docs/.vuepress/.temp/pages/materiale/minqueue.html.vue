@@ -29,6 +29,14 @@ In questo caso la complessità è <code v-pre>O(1)</code> amortizzato: una chiam
 <span class="line">    <span class="token keyword">return</span> q<span class="token punctuation">.</span><span class="token function">front</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span>
 <span class="line"><span class="token punctuation">}</span></span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="problemi" tabindex="-1"><a class="header-anchor" href="#problemi"><span>Problemi</span></a></h2>
+<ul>
+<li><RouteLink to="/materiale/problemi/1645.html">Nearest Smaller Values</RouteLink></li>
+<li><RouteLink to="/materiale/problemi/tai_monete.html">Pila di monete</RouteLink></li>
+<li>Dato un array <code v-pre>A</code> di <code v-pre>N</code> elementi e un intero <code v-pre>M &lt;= N</code>, trova il minimo di tutti i subarray (i.e. segmenti continui) di lunghezza <code v-pre>M</code> in <code v-pre>O(N)</code>.</li>
+<li><RouteLink to="/materiale/problemi/1142.html">Advertisement</RouteLink></li>
+<li><a href="https://cses.fi/problemset/task/1147" target="_blank" rel="noopener noreferrer">Maximum Building I</a></li>
+</ul>
+</div></template>
 
 

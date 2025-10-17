@@ -13,7 +13,22 @@
 mentre <code v-pre>r</code> che siamo sicuri non funzioni. Alla fine <code v-pre>l</code> sarà il più grande t.c <code v-pre>check(l)</code> è vero
 mentre <code v-pre>r</code> sarà il più piccolo t.c. che sia falso.</p>
 <h2 id="risorse-esterne" tabindex="-1"><a class="header-anchor" href="#risorse-esterne"><span>Risorse esterne</span></a></h2>
-<p><a href="https://cp-algorithms.com/num_methods/binary_search.html" target="_blank" rel="noopener noreferrer">https://cp-algorithms.com/num_methods/binary_search.html</a></p>
+<ul>
+<li><a href="https://cp-algorithms.com/num_methods/binary_search.html" target="_blank" rel="noopener noreferrer">https://cp-algorithms.com/num_methods/binary_search.html</a>
+Approfondimenti:</li>
+<li><a href="https://cp-algorithms.com/num_methods/ternary_search.html" target="_blank" rel="noopener noreferrer">ternary search</a></li>
+<li><a href="https://codeforces.com/blog/entry/45578" target="_blank" rel="noopener noreferrer">binary search parallele</a></li>
+</ul>
+<h2 id="problemi" tabindex="-1"><a class="header-anchor" href="#problemi"><span>Problemi</span></a></h2>
+<ul>
+<li><a href="https://training.olinfo.it/task/ois_annoluce" target="_blank" rel="noopener noreferrer">Annoluce</a></li>
+<li><a href="https://training.olinfo.it/task/ois_avg2" target="_blank" rel="noopener noreferrer">avg2</a></li>
+<li><a href="https://training.olinfo.it/task/oii_aeroporto" target="_blank" rel="noopener noreferrer">Aeroporto</a></li>
+<li><RouteLink to="/materiale/problemi/trendytrash.html">Trendytrash</RouteLink></li>
+<li><RouteLink to="/materiale/problemi/altavelocit%C3%A0.html">Altavelocità</RouteLink></li>
+<li><a href="https://training.olinfo.it/task/ois_wine" target="_blank" rel="noopener noreferrer">Wine</a></li>
+<li><a href="https://training.olinfo.it/task/oii_corteo" target="_blank" rel="noopener noreferrer">Corteo</a></li>
+</ul>
 </div></template>
 
 

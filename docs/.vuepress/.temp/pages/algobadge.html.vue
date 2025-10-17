@@ -75,7 +75,7 @@ Però il fatto che ci chieda il B massimale e il fatto che i B che funzionano so
 <p>Come facciamo a controllare che un certo B funzioni? Spoiler: sliding window</p>
 </details>
 <h2 id="rec" tabindex="-1"><a class="header-anchor" href="#rec"><span>Rec</span></a></h2>
-<p>Questa categoria richiede sapere cos'è la ricorsione e l'induzione, cioè risolvere un problema a partire da versioni più piccole del problema stesso.</p>
+<p>Questa categoria richiede di sapere cos'è la ricorsione e l'induzione, cioè risolvere un problema a partire da versioni più piccole del problema stesso.</p>
 <h3 id="antivirus" tabindex="-1"><a class="header-anchor" href="#antivirus"><span>Antivirus</span></a></h3>
 <p>Non so cosa ci faccia questo problema in questa categoria.</p>
 <details>
@@ -178,6 +178,42 @@ Però il fatto che ci chieda il B massimale e il fatto che i B che funzionano so
   <summary>Hint 1:</summary>
 <p>Implementa <RouteLink to="/materiale/grafi.html#dijkstra">dijkstra</RouteLink></p>
 </details>
-</div></template>
+<h2 id="ds" tabindex="-1"><a class="header-anchor" href="#ds"><span>Ds</span></a></h2>
+<p>Questa categoria richiede di conoscere il concetto di prefix sum e strutture dati come il segment tree.</p>
+<h3 id="calcio" tabindex="-1"><a class="header-anchor" href="#calcio"><span>Calcio</span></a></h3>
+<details>
+  <summary>Hint 1:</summary>
+<p>Posso provare tutti i possibili campi da calcio.</p>
+</details>
+<details>
+  <summary>Hint 2:</summary>
+<p>ISe solo potessi generalizzare la prefix sum a più dimensioni...</p>
+</details>
+<details>
+  <summary>Hint 3:</summary>
+<p>Usa una <a href="https://usaco.guide/silver/more-prefix-sums?lang=cpp#2d-prefix-sums" target="_blank" rel="noopener noreferrer">prefix sum 2d</a>.</p>
+</details>
+<h3 id="museo" tabindex="-1"><a class="header-anchor" href="#museo"><span>Museo</span></a></h3>
+<details>
+  <summary>Hint 1:</summary>
+<p>Implementa un segment tree.</p>
+</details>
+<h3 id="paletta" tabindex="-1"><a class="header-anchor" href="#paletta"><span>Paletta</span></a></h3>
+<details>
+  <summary>Hint 1:</summary>
+<p>Come faccio a controllare se posso sortare una data lista?</p>
+</details>
+<details>
+  <summary>Hint 2:</summary>
+<p>Forse la parità degli indici si comporta in modo interessante...</p>
+</details>
+<details>
+  <summary>Hint 3:</summary>
+<p>Come faccio a contare il numero di passaggi richiesti?</p>
+</details>
+<details>
+  <summary>Hint 4:</summary>
+<p>Il problema si riconduce a contare il numero di inversioni in un array. Posso farlo con un segment tree?</p>
+</details></div></template>
 
 

@@ -7,6 +7,25 @@ export const routes = Object.fromEntries([
   ["/link.html", { loader: () => import(/* webpackChunkName: "link.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/link.html.js"), meta: {"title":"Risorse"} }],
   ["/materiale.html", { loader: () => import(/* webpackChunkName: "materiale.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale.html.js"), meta: {"title":"Materiale"} }],
   ["/problemi_gara.html", { loader: () => import(/* webpackChunkName: "problemi_gara.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi_gara.html.js"), meta: {"title":"Problemi per fonte"} }],
+  ["/materiale/binary_search.html", { loader: () => import(/* webpackChunkName: "materiale_binary_search.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/binary_search.html.js"), meta: {"title":"Binary search"} }],
+  ["/materiale/bitmask_dp.html", { loader: () => import(/* webpackChunkName: "materiale_bitmask_dp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/bitmask_dp.html.js"), meta: {"title":"Bitmask dp"} }],
+  ["/materiale/cht.html", { loader: () => import(/* webpackChunkName: "materiale_cht.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/cht.html.js"), meta: {"title":"Convex hull trick"} }],
+  ["/materiale/cpp_cheatsheet.html", { loader: () => import(/* webpackChunkName: "materiale_cpp_cheatsheet.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/cpp_cheatsheet.html.js"), meta: {"title":"c++ di base"} }],
+  ["/materiale/dp.html", { loader: () => import(/* webpackChunkName: "materiale_dp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/dp.html.js"), meta: {"title":"Dp base"} }],
+  ["/materiale/dp_adv.html", { loader: () => import(/* webpackChunkName: "materiale_dp_adv.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/dp_adv.html.js"), meta: {"title":""} }],
+  ["/materiale/fastexp.html", { loader: () => import(/* webpackChunkName: "materiale_fastexp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/fastexp.html.js"), meta: {"title":"Esponenziazione veloce"} }],
+  ["/materiale/grafi.html", { loader: () => import(/* webpackChunkName: "materiale_grafi.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/grafi.html.js"), meta: {"title":"Grafi"} }],
+  ["/materiale/greedy.html", { loader: () => import(/* webpackChunkName: "materiale_greedy.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/greedy.html.js"), meta: {"title":"Greedy"} }],
+  ["/materiale/gst.html", { loader: () => import(/* webpackChunkName: "materiale_gst.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/gst.html.js"), meta: {"title":"Editorial gst"} }],
+  ["/materiale/intro.html", { loader: () => import(/* webpackChunkName: "materiale_intro.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/intro.html.js"), meta: {"title":"Intro"} }],
+  ["/materiale/inversion_trick.html", { loader: () => import(/* webpackChunkName: "materiale_inversion_trick.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/inversion_trick.html.js"), meta: {"title":"Inversion trick"} }],
+  ["/materiale/minqueue.html", { loader: () => import(/* webpackChunkName: "materiale_minqueue.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/minqueue.html.js"), meta: {"title":"Minimum Queue"} }],
+  ["/materiale/minstack.html", { loader: () => import(/* webpackChunkName: "materiale_minstack.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/minstack.html.js"), meta: {"title":"Minimum Stack"} }],
+  ["/materiale/pragma.html", { loader: () => import(/* webpackChunkName: "materiale_pragma.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/pragma.html.js"), meta: {"title":"Pragma"} }],
+  ["/materiale/range_dp.html", { loader: () => import(/* webpackChunkName: "materiale_range_dp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/range_dp.html.js"), meta: {"title":"Range dp"} }],
+  ["/materiale/segment_tree.html", { loader: () => import(/* webpackChunkName: "materiale_segment_tree.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/segment_tree.html.js"), meta: {"title":"Segment tree"} }],
+  ["/materiale/sliding_window.html", { loader: () => import(/* webpackChunkName: "materiale_sliding_window.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/sliding_window.html.js"), meta: {"title":"Sliding window"} }],
+  ["/materiale/slope_trick.html", { loader: () => import(/* webpackChunkName: "materiale_slope_trick.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/slope_trick.html.js"), meta: {"title":"Slope trick"} }],
   ["/problemi/1142.html", { loader: () => import(/* webpackChunkName: "problemi_1142.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/1142.html.js"), meta: {"title":"Advertisement"} }],
   ["/problemi/1645.html", { loader: () => import(/* webpackChunkName: "problemi_1645.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/1645.html.js"), meta: {"title":"Nearest Smaller Values"} }],
   ["/problemi/altavelocit%C3%A0.html", { loader: () => import(/* webpackChunkName: "problemi_altavelocità.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/altavelocità.html.js"), meta: {"title":"Altavelocità"} }],
@@ -30,33 +49,5 @@ export const routes = Object.fromEntries([
   ["/problemi/trendytrash.html", { loader: () => import(/* webpackChunkName: "problemi_trendytrash.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/trendytrash.html.js"), meta: {"title":"Trendytrash"} }],
   ["/problemi/tulips.html", { loader: () => import(/* webpackChunkName: "problemi_tulips.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/tulips.html.js"), meta: {"title":"Tulips"} }],
   ["/problemi/walker.html", { loader: () => import(/* webpackChunkName: "problemi_walker.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/problemi/walker.html.js"), meta: {"title":"Johnnie Walker"} }],
-  ["/materiale/binary_search.html", { loader: () => import(/* webpackChunkName: "materiale_binary_search.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/binary_search.html.js"), meta: {"title":"Binary search"} }],
-  ["/materiale/bitmask_dp.html", { loader: () => import(/* webpackChunkName: "materiale_bitmask_dp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/bitmask_dp.html.js"), meta: {"title":"Bitmask dp"} }],
-  ["/materiale/cht.html", { loader: () => import(/* webpackChunkName: "materiale_cht.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/cht.html.js"), meta: {"title":"Convex hull trick"} }],
-  ["/materiale/cpp_cheatsheet.html", { loader: () => import(/* webpackChunkName: "materiale_cpp_cheatsheet.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/cpp_cheatsheet.html.js"), meta: {"title":"c++ di base"} }],
-  ["/materiale/fastexp.html", { loader: () => import(/* webpackChunkName: "materiale_fastexp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/fastexp.html.js"), meta: {"title":"Esponenziazione veloce"} }],
-  ["/materiale/grafi.html", { loader: () => import(/* webpackChunkName: "materiale_grafi.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/grafi.html.js"), meta: {"title":"Grafi"} }],
-  ["/materiale/inversion_trick.html", { loader: () => import(/* webpackChunkName: "materiale_inversion_trick.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/inversion_trick.html.js"), meta: {"title":"Inversion trick"} }],
-  ["/materiale/minqueue.html", { loader: () => import(/* webpackChunkName: "materiale_minqueue.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/minqueue.html.js"), meta: {"title":"Minimum Queue"} }],
-  ["/materiale/minstack.html", { loader: () => import(/* webpackChunkName: "materiale_minstack.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/minstack.html.js"), meta: {"title":"Minimum Stack"} }],
-  ["/materiale/range_dp.html", { loader: () => import(/* webpackChunkName: "materiale_range_dp.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/range_dp.html.js"), meta: {"title":"Range dp"} }],
-  ["/materiale/slope_trick.html", { loader: () => import(/* webpackChunkName: "materiale_slope_trick.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/slope_trick.html.js"), meta: {"title":"Slope trick"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}

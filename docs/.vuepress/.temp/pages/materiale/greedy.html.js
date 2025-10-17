@@ -1,0 +1,3 @@
+import comp from "/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/greedy.html.vue"
+const data = JSON.parse("{\"path\":\"/materiale/greedy.html\",\"title\":\"Greedy\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Problemi\",\"slug\":\"problemi\",\"link\":\"#problemi\",\"children\":[]}],\"git\":{\"updatedTime\":1760730657000,\"contributors\":[{\"name\":\"nik-din\",\"username\":\"nik-din\",\"email\":\"nik.dindo@gmail.com\",\"commits\":1,\"url\":\"https://github.com/nik-din\"}]},\"filePathRelative\":\"materiale/greedy.md\"}")
+export { comp, data }

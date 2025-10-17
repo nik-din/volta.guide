@@ -1,0 +1,3 @@
+import comp from "/home/nikolka/Scrivania/progetti/volta.guide/docs/.vuepress/.temp/pages/materiale/segment_tree.html.vue"
+const data = JSON.parse("{\"path\":\"/materiale/segment_tree.html\",\"title\":\"Segment tree\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[{\"level\":2,\"title\":\"Risorse\",\"slug\":\"risorse\",\"link\":\"#risorse\",\"children\":[]},{\"level\":2,\"title\":\"Implementazione\",\"slug\":\"implementazione\",\"link\":\"#implementazione\",\"children\":[]}],\"git\":{\"updatedTime\":1760730657000,\"contributors\":[{\"name\":\"nik-din\",\"username\":\"nik-din\",\"email\":\"nik.dindo@gmail.com\",\"commits\":2,\"url\":\"https://github.com/nik-din\"}]},\"filePathRelative\":\"materiale/segment_tree.md\"}")
+export { comp, data }

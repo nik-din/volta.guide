@@ -113,6 +113,15 @@ Implementazione:</p>
 <span class="line"><span class="token punctuation">}</span></span>
 <span class="line"></span>
 <span class="line"></span></code></pre>
-<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2 id="problemi" tabindex="-1"><a class="header-anchor" href="#problemi"><span>Problemi</span></a></h2>
+<ul>
+<li><RouteLink to="/materiale/problemi/ois_ponti.html">ois_ponti</RouteLink></li>
+<li><RouteLink to="/materiale/problemi/oii_maree.html">oii_maree</RouteLink></li>
+<li><a href="https://training.olinfo.it/task/sunny" target="_blank" rel="noopener noreferrer">sunny</a></li>
+<li><a href="https://training.olinfo.it/task/ois_monete" target="_blank" rel="noopener noreferrer">ois_monete</a></li>
+<li><a href="https://training.olinfo.it/task/ois_patrol2" target="_blank" rel="noopener noreferrer">ois_police2</a></li>
+<li><a href="https://training.olinfo.it/task/ois_rainstorm" target="_blank" rel="noopener noreferrer">ois_rainstorm</a></li>
+</ul>
+</div></template>
 
 
