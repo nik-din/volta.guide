@@ -24,8 +24,8 @@ Approfondimenti:
 - [Annoluce](https://training.olinfo.it/task/ois_annoluce)
 - [avg2](https://training.olinfo.it/task/ois_avg2)
 - [Aeroporto](https://training.olinfo.it/task/oii_aeroporto)
-- [Trendytrash](./problemi/trendytrash.md)
-- [Altavelocità](./problemi/altavelocità.md)
+- [Trendytrash](../problemi/trendytrash.md)
+- [Altavelocità](../problemi/altavelocità.md)
 - [Wine](https://training.olinfo.it/task/ois_wine)
 - [Corteo](https://training.olinfo.it/task/oii_corteo)
  
