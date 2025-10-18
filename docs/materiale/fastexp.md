@@ -13,3 +13,4 @@ Attenti a overflow, spesso va implementato con i ```long long```  e i moduli.
 
 ## Risorse esterne
 [https://cp-algorithms.com/algebra/binary-exp.html](https://cp-algorithms.com/algebra/binary-exp.html)
+

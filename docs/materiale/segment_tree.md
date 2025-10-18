@@ -1,6 +1,6 @@
 # Segment tree
 La struttura dati più utile e versatile in cp.
-## Risorse esterne
+## Risorse
 - [segment tree, guida di Arcari](https://wiki.olinfo.it/lezioni/segment-tree-1)
 - [segment tree con lazy, sempre di Arcari](https://wiki.olinfo.it/it/lezioni/segment-tree-2)
 - [cp-algorithms](https://cp-algorithms.com/data_structures/segment_tree.html)
