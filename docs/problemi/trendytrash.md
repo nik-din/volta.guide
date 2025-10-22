@@ -1,5 +1,6 @@
 # Trendytrash
 Link: [https://training.olinfo.it/#/task/oii_trendytrash/statement](https://training.olinfo.it/#/task/oii_trendytrash/statement)
+
 Fonte: OII 2021    
 <details>
   <summary>Categoria</summary>

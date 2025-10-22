@@ -1,7 +1,7 @@
 # Algobadge
-**work in progress!**
-Qui puoi trovare hint per i problemi di Algobadge!
-Algobadge è un raccolta di problemi divisi per argomento il cui completamento serve, ad esempio, per fare  gli stage o partecipare alle nazionali.
+**work in progress!**   
+Qui puoi trovare hint per i problemi di Algobadge!    
+Algobadge è un raccolta di problemi divisi per argomento il cui completamento serve, ad esempio, per fare  gli stage o partecipare alle nazionali.    
 E' un ottimo modo per esercitarsi negli argomenti imparati.
 
 ## Intro

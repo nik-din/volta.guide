@@ -1,120 +1,23 @@
 # Materiale
-Qui caricheremo via via materiale.
+Qui caricheremo via via materiale. 
 
-## Pragma
-```cpp
-#pragma GCC optimize("O3,unroll-loops,fast-math,trapv")
-#pragma GCC target("popcnt,avx2,avx512bw")
-```
-```trap2``` crasha con overflow.
+Fino alle terry:
+- [c++ di base](./materiale/cpp_cheatsheet.md)
+- [qualche problema di introduzione](./materiale/intro.md)
+- [greedy](./materiale/greedy.md)
+- [fastexp](./materiale/fastexp.md)
+- [sliding window](./materiale/sliding_window.md)
+- [binary search](./materiale/binary_search.md)
+- [dp](./materiale/dp.md)
+- [grafi](./materiale/grafi.md)
 
-## Dp avanzata
-Una raccolta di argomenti in ordine sparso su dp.
-- [Inversion trick](./materiale/inversion_trick.md) (chiamo così un trucco per contare il numero di transizioni)
-- [Bitmask dp](./materiale/bitmask_dp.md)
-- [Range dp](./materiale/range_dp.md)
-Argomenti avanzati e poco utili:
-- [Convex hull trick](./materiale/cht.md)
-- [Slope trick](./materiale/slope_trick.md)
+Fino alle oii:
+- [minstack](./materiale/minstack.md) e [minqueue](./materiale/minqueue.md)
+- [segment tree](./materiale/segment_tree.md)
 
-## Minimum queue/stack
-Appunti lezione:
-- [Minimum Stack](./materiale/minstack.md)
-- [Minimum Queue](./materiale/minqueue.md)
+Oltre:
+- [dp avanzata](./materiale/dp_adv.md)
 
-Problemi svolti a lezione:
-- [Nearest Smaller Values](./problemi/1645.md)
-- [Pila di monete](./problemi/tai_monete.md)
-
-Altri problemi:
-- Dato un array ```A``` di ```N``` elementi e un intero ```M <= N```, trova il minimo di tutti i subarray (i.e. segmenti continui) di lunghezza ```M``` in ```O(N)```.
-- [Advertisement](./problemi/1142.md)
-- [Maximum Building I](https://cses.fi/problemset/task/1147)
-
-
-## Greedy2 e sliding window
-Sliding window:
-- [Dante](./problemi/dante.md)
-- [Gathering](./problemi/gather.md)
-
-Greedy:
-- [Dreamteam](./problemi/dreamteam.md)
-- [Money](./problemi/money.md)
-- [Reading](./problemi/reading.md)
-
-
-## Grafi
-[Appunti lezione](./materiale/grafi.md)
-
-Problemi svolti a lezione:
- - [ois_ponti](./problemi/ois_ponti.md)
- - [oii_maree](./problemi/oii_maree.md)
-
-Altri problemi (in ordine di difficoltà):
- - [sunny](https://training.olinfo.it/task/sunny)
- - [ois_monete](https://training.olinfo.it/task/ois_monete)
- - [ois_police2](https://training.olinfo.it/task/ois_patrol2)
- - [ois_rainstorm](https://training.olinfo.it/task/ois_rainstorm)
-
-## dp
-problemi fatti a lezione:
-- [poldo](./problemi/poldo.md)
-- [police3](./problemi/police3.md)
-- [coin combinations II](./problemi/coin_combinations_II.md)   
-
-problemi: 
-- [brackets2](https://training.olinfo.it/task/ois_brackets2)   
-
-L'intero [atcoder dp contest](https://atcoder.jp/contests/dp). L'ordine di difficoltà è A B C D H F E I G K L M N P S O Q R J U Z Y X T V W (all'incirca, la fonte è un commento su cf che penso li abbia ordinati per numero di persone che li hanno risolti in gara). Le soluzioni si possono trovare [qua](https://nwatx.me/post/atcoderdp).
-
-## Greedy e binary search
-[codice binary search](./materiale/binary_search.md)   
-[codice fastexp](./materiale/fastexp.md)    
-**Introduttivi**
-- [Annoluce](https://training.olinfo.it/task/ois_annoluce)
-- [Rectangle](https://training.olinfo.it/task/ois_rectangle)
-- [Truffa](https://training.olinfo.it/task/ois_truffa)
-- [avg2](https://training.olinfo.it/task/ois_avg2)
-- [Aeroporto](https://training.olinfo.it/task/oii_aeroporto)
-- [avg](https://training.olinfo.it/task/ois_avg)
-
-**Interessanti**
-- [Trendytrash](https://training.olinfo.it/task/oii_trendytrash), [hint e sol](./problemi/trendytrash.md)
-- [Altavelocità](https://training.olinfo.it/task/abc_altavelocita), [hint e sol](./problemi/altavelocità.md)
-
-**Difficili**   
-Nota: questi problemi sono pensati per l'avanzato
-- [Wine](https://training.olinfo.it/task/ois_wine)
-- [Corteo](https://training.olinfo.it/task/oii_corteo)
-- [Lungomare](https://training.olinfo.it/task/oii_lungomare)    
-Approfondimenti in più:
-- [ternary search](https://cp-algorithms.com/num_methods/ternary_search.html)
-- [binary search parallele](https://codeforces.com/blog/entry/45578)
-
-## Base
-### c++ base
-[sintassi base c++](./materiale/cpp_cheatsheet.md)
-### Problemi
-#### Lezione 3
-- [Farmula 1](https://training.olinfo.it/task/ois_farmula1)
-- [Formula 1](https://training.olinfo.it/task/ois_f1)
-- [Goose game](https://training.olinfo.it/task/ois_goose)
-- [Cars](https://training.olinfo.it/task/ois_cars)
-- [Avg](https://training.olinfo.it/task/ois_avg)
-- [Interrogazioni](https://training.olinfo.it/task/ois_interrogazioni)
-
-#### Lezione 2
-- [Pari](https://training.olinfo.it/task/pari)
-- [Disks](https://training.olinfo.it/task/ois_disks)
-- [Cake](https://training.olinfo.it/task/ois_cake)
-- [Sign](https://training.olinfo.it/task/ois_sign)
-
-## Avanzato
-### Editorial gst
-Ecco l'editorial:
-- [A](./problemi/gather.md)
-- [B](./problemi/money.md)
-- [C](./problemi/reading.md)
-- [D](./problemi/renovations.md)
-
-l'E sarà per la prossima volta ;)
+Altro:
+- [pragma](./materiale/pragma.md)
+- [gst 2024](./materiale/gst.md)

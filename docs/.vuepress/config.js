@@ -12,7 +12,7 @@ export default defineUserConfig({
   theme: defaultTheme({
     logo: '/images/volta.png',
 
-    navbar: ['/', '/introduzione', '/materiale', '/link', '/algobadge', '/problemi_gara'],
+    navbar: ['/', '/introduzione', '/materiale', '/link', '/algobadge'],
   }),
 
   bundler: viteBundler(),
