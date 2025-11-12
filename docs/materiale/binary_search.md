@@ -16,6 +16,7 @@ mentre ```r``` sarà il più piccolo t.c. che sia falso.
 
 ## Risorse esterne
 - [https://cp-algorithms.com/num_methods/binary_search.html](https://cp-algorithms.com/num_methods/binary_search.html)
+
 Approfondimenti:
 - [ternary search](https://cp-algorithms.com/num_methods/ternary_search.html)
 - [binary search parallele](https://codeforces.com/blog/entry/45578)
@@ -23,6 +24,7 @@ Approfondimenti:
 ## Problemi
 - [Annoluce](https://training.olinfo.it/task/ois_annoluce)
 - [avg2](https://training.olinfo.it/task/ois_avg2)
+- [Problem setting](https://training.olinfo.it/task/ois_problemsetting)
 - [Aeroporto](https://training.olinfo.it/task/oii_aeroporto)
 - [Trendytrash](../problemi/trendytrash.md)
 - [Altavelocità](../problemi/altavelocità.md)
