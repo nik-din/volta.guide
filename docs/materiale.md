@@ -9,6 +9,7 @@ Fino alle terry:
 - [sliding window](./materiale/sliding_window.md)
 - [binary search](./materiale/binary_search.md)
 - [dp](./materiale/dp.md)
+- [alberi](./materiale/alberi.md)
 - [grafi](./materiale/grafi.md)
 
 Fino alle oii:
